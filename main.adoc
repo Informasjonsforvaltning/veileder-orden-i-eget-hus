@@ -1,5 +1,7 @@
-= Spesifikasjonsmal
-:description: Mal for bruk til nye spesifikasjoner som er laga i asciidoc.
+= Veileder for orden i eget hus
+Digitaliseringsdirektoratet
+v2.0, 06.07.2018
+:description: Veileder for orden i eget hus
 :doctype: book
 :docinfo:
 :icons: font
@@ -11,16 +13,35 @@
 
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
-Publisert: 2020-03-05
-
-WARNING: Dette er mal-dokument for andre spesifikasjoner.
+Publisert: 2018-06-07
 
 include::locale/attributes.adoc[]
 
 include::shared/download.adoc[]
 
 // Innhold her. Feks ei fil pr kapittel:
-include::forord.adoc[]
-include::kapittel_1.adoc[]
+include::1 - målgruppe.adoc[]
+include::2-oppbygging.adoc[]
+include::3-menerMed.adoc[]
+include::4-mandat.adoc[]
+include::5-modenhetsmåling.adoc[]
+include::6-kartlegging.adoc[]
+include::7-prioritering.adoc[]
+include::8-tilgangsnivå.adoc[]
+include::9-beskrive.adoc[]
+include::10-tilgjengeliggjøre.adoc[]
+include::11-synliggjøre.adoc[]
+include::12-styring.adoc[]
+include::13-overordnetRollerProsesser.adoc[]
+include::14-rollerProsesserBegrepsarbeid.adoc[]
+include::15-verktøyBegrep.adoc[]
+include::16-verktøyLokalkat.adoc[]
+include::17-delekultur.adoc[]
+include::18-legitimitet.adoc[]
+include::19-endringsevne.adoc[]
+include::20-bedreDigitaleTjenester.adoc[]
+include::21-innovasjon.adoc[]
+include::22-infosikkerhet.adoc[]
+include::23-lovverk.adoc[]
 
 include::shared/stats.adoc[]

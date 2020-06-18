@@ -5,8 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="description" content="Mal for bruk til nye spesifikasjoner som er laga i asciidoc.">
-<title>Spesifikasjonsmal</title>
+<meta name="description" content="Veileder for orden i eget hus">
+<meta name="author" content="Digitaliseringsdirektoratet">
+<title>Veileder for orden i eget hus</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -440,12 +441,96 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
-<h1>Spesifikasjonsmal</h1>
+<h1>Veileder for orden i eget hus</h1>
+<div class="details">
+<span id="author" class="author">Digitaliseringsdirektoratet</span><br>
+<span id="revnumber">version 2.0,</span>
+<span id="revdate">06.07.2018</span>
+</div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_forord">Forord</a></li>
-<li><a href="#_kapittel_1">Kapittel 1</a></li>
+<li><a href="#_innledning">Innledning</a>
+<ul class="sectlevel2">
+<li><a href="#_målgruppe">Målgruppe</a></li>
+<li><a href="#_oppbygging_av_veilederen">Oppbygging av veilederen</a></li>
+<li><a href="#_hva_mener_vi_med_orden_i_eget_hus">Hva mener vi med “orden i eget hus”?</a></li>
+</ul>
+</li>
+<li><a href="#_sikre_mandat_forankring_og_eierskap">Sikre mandat, forankring og eierskap</a></li>
+<li><a href="#_hvordan_skape_orden_i_eget_hus">Hvordan skape orden i eget hus?</a>
+<ul class="sectlevel2">
+<li><a href="#_modenhetsmåling">Modenhetsmåling</a></li>
+<li><a href="#_kartlegging">Kartlegging</a>
+<ul class="sectlevel3">
+<li><a href="#_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives">Hva er et datasett og hvilke datasett skal beskrives?</a></li>
+<li><a href="#_hvor_starter_jeg">Hvor starter jeg?</a></li>
+<li><a href="#_hva_er_forskjellen_mellom_oversikt_og_beskrivelse">Hva er forskjellen mellom oversikt og beskrivelse?</a></li>
+</ul>
+</li>
+<li><a href="#_prioritering">Prioritering</a></li>
+<li><a href="#_vurdering_av_tilgangsnivå">Vurdering av tilgangsnivå</a>
+<ul class="sectlevel3">
+<li><a href="#_offentlig_grønn">Offentlig (grønn)</a></li>
+<li><a href="#_begrenset_offentlighet_gul">Begrenset offentlighet (gul)</a></li>
+<li><a href="#_unntatt_offentlighet_rød">Unntatt offentlighet (rød)</a></li>
+</ul>
+</li>
+<li><a href="#_beskrive_data">Beskrive data</a>
+<ul class="sectlevel3">
+<li><a href="#_standard_for_beskrivelse_av_datasett_dcat_ap_no">Standard for beskrivelse av datasett - DCAT-AP-NO</a></li>
+<li><a href="#_standarder_for_begrepsarbeid">Standarder for begrepsarbeid</a></li>
+<li><a href="#_vurdering_og_beskrivelse_av_kvalitet_på_datasett">Vurdering og beskrivelse av kvalitet på datasett</a></li>
+<li><a href="#_api_katalog_en_oversikt_over_grensesnitt_til_data">API-katalog - en oversikt over grensesnitt til data</a></li>
+<li><a href="#_informasjonsmodeller">Informasjonsmodeller</a></li>
+</ul>
+</li>
+<li><a href="#_tilgjengeliggjøre_beskrivelsene">Tilgjengeliggjøre beskrivelsene</a>
+<ul class="sectlevel3">
+<li><a href="#_datakatalog_en_oversikt_over_datasett">Datakatalog - en oversikt over datasett</a></li>
+</ul>
+</li>
+<li><a href="#_synliggjøring_og_brukerdialog">Synliggjøring og brukerdialog</a></li>
+</ul>
+</li>
+<li><a href="#_styring_og_forvaltning">Styring og forvaltning</a>
+<ul class="sectlevel2">
+<li><a href="#_overordnet_organisering_roller_og_prosesser">Overordnet organisering, roller og prosesser</a>
+<ul class="sectlevel3">
+<li><a href="#_styringsmodeller">Styringsmodeller</a></li>
+</ul>
+</li>
+<li><a href="#_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid">Organisering, roller og arbeidsprosesser i begrepsarbeid</a>
+<ul class="sectlevel3">
+<li><a href="#_roller_i_begrepsarbeidet">Roller i begrepsarbeidet</a></li>
+<li><a href="#_andre_roller_som_kan_inngå_i_begrepsarbeidet">Andre roller som kan inngå i begrepsarbeidet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_valg_av_verktøy">Valg av verktøy</a>
+<ul class="sectlevel2">
+<li><a href="#_begrepskatalog">Begrepskatalog</a></li>
+<li><a href="#_lokal_datakatalog">Lokal datakatalog</a></li>
+</ul>
+</li>
+<li><a href="#_hvorfor_orden_i_eget_hus">Hvorfor orden i eget hus</a>
+<ul class="sectlevel2">
+<li><a href="#_delekultur_som_gir_gevinster">Delekultur som gir gevinster</a></li>
+<li><a href="#_legitimitet_og_tillit">Legitimitet og tillit</a></li>
+<li><a href="#_bedre_endringsevne_gjennomføring_og_kontroll">Bedre endringsevne, gjennomføring og kontroll</a></li>
+<li><a href="#_bedre_digitale_tjenester_til_innbyggere_og_næringsliv">Bedre digitale tjenester til innbyggere og næringsliv</a></li>
+<li><a href="#_innovasjon_og_ny_næringsvekst">Innovasjon og ny næringsvekst</a></li>
+<li><a href="#_informasjonssikkerhet_og_personvern">Informasjonssikkerhet og personvern</a></li>
+<li><a href="#_lovverk">Lovverk</a>
+<ul class="sectlevel3">
+<li><a href="#_offentleglova">Offentleglova</a></li>
+<li><a href="#_forvaltningsloven_og_eforvaltningsforskriften">Forvaltningsloven og eForvaltningsforskriften</a></li>
+<li><a href="#_anbefalte_og_obligatoriske_standarder">Anbefalte og obligatoriske standarder</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -458,19 +543,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="paragraph">
-<p>Publisert: 2020-03-05</p>
-</div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Warning"></i>
-</td>
-<td class="content">
-Dette er mal-dokument for andre spesifikasjoner.
-</td>
-</tr>
-</table>
+<p>Publisert: 2018-06-07</p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -488,24 +561,856 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 </div>
 </div>
 <div class="sect1">
-<h2 id="_forord"><a class="anchor" href="#_forord"></a>Forord</h2>
+<h2 id="_innledning"><a class="anchor" href="#_innledning"></a>Innledning</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_målgruppe"><a class="anchor" href="#_målgruppe"></a>Målgruppe</h3>
 <div class="paragraph">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non augue dapibus, mollis odio vel, efficitur orci. Aenean venenatis orci a porta cursus. Suspendisse at commodo nulla, et sagittis neque. Maecenas pulvinar tellus vel tellus ultricies, sit amet tristique ex faucibus. Fusce sapien tellus, accumsan nec justo in, lobortis varius purus. Curabitur non libero lectus. Praesent accumsan quam sit amet luctus lobortis. Pellentesque augue dui, congue et felis eget, scelerisque porta enim. Proin iaculis placerat tincidunt. Cras nec gravida elit.</p>
+<p>Veilederen henvender seg til de som i den enkelte virksomhet har ansvar for og myndighet til å etablere, styre og forvalte arbeidet med “orden i eget hus”. Dette er i mange tilfeller linjen/ledelsen, men vil også være ansatte som skal følge opp det konkrete arbeidet internt.</p>
 </div>
 <div class="paragraph">
-<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla id leo ac est condimentum tempus. Duis maximus tortor nec porttitor tincidunt. Donec eu mi sed libero pharetra semper quis in ex. Nunc mattis vitae libero eu rhoncus. Nam mattis magna ac tincidunt feugiat. Nulla ullamcorper, sem non volutpat varius, felis quam rhoncus massa, vitae pellentesque odio ligula a metus. Vestibulum commodo lacus eu odio posuere pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<p>Behovet for “orden i eget hus” gjelder hele offentlig sektor. Det betyr at målgruppen for denne veilederen både er statlige, fylkeskommunale og kommunale virksomheter av ulik størrelse og med ulik erfaring innenfor informasjonsforvaltning.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_oppbygging_av_veilederen"><a class="anchor" href="#_oppbygging_av_veilederen"></a>Oppbygging av veilederen</h3>
+<div class="paragraph">
+<p>I Difis rapport <a href="https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf">"Informasjonsforvaltning i offentlig sektor"</a> defineres informasjonsforvaltning slik:</p>
+</div>
+<div class="paragraph">
+<p>“Informasjonsforvaltning betyr eit heilskapleg syn på aktivitetar, verktøy og andre tiltak for å sikre best mogleg kvalitet, utnytting og sikring av informasjon i ei verksemd. Organiseringa av informasjonen skal vere systematisk og henge saman med verksemda sine arbeidsprosessar”.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Veilederen tar utgangspunkt i “eit heilskapelig syn på aktiviteter” under kapittelet <a href="#_styring_og_forvaltning">Styring og forvaltning</a>.</p>
+</li>
+<li>
+<p>Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <a href="#_hvordan_skape_orden_i_eget_hus">Hvordan skape orden i eget hus?</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Veilederen er ikke laget for å leses fra a til å.</strong> Siden målgruppen er variert, vil ulike deler være relevante for ulike brukergrupper.</p>
+</div>
+<div class="paragraph">
+<p>Veilederen er basert på innspill fra en gruppe offentlige virksomheter, og vil være preget av de erfaringer gruppen har. Det vil komme nye versjoner etter hvert som erfaringene med rammeverket for informasjonsforvaltning øker både i bredde og dybde.</p>
+</div>
+<div class="paragraph">
+<p>Veilederen skal <strong>primært støtte arbeid som er nødvendig for å få til deling av informasjon</strong>. Den vil ikke omhandle hvordan selve delingen skal gjøres i praksis (avtaleverk, utvekslingsformater o.l.). Dens bidrag er å hjelpe virksomhetene med å etablere “orden i eget hus”, en situasjon der oversikten som trengs for å dele informasjon, er på plass. Veilederen vil gå nærmere inn på hva dette innebærer i praksis.</p>
+</div>
+<div class="paragraph">
+<p>Merk at det også finnes egne og supplerende, detaljerte veiledere, som bør sees i sammenheng med denne veiledningen, blant annet:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Hvordan beskrive datasett i henhold til felles standard, DCAT-AP-NO: <a href="https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/">https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/</a></p>
+</li>
+<li>
+<p>Tilgjengeliggjøring av offentlig data:
+<a href="https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data">https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data</a></p>
+</li>
+<li>
+<p>Internkontrollveilederen: <a href="https://internkontroll-infosikkerhet.difi.no/">https://internkontroll-infosikkerhet.difi.no/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_hva_mener_vi_med_orden_i_eget_hus"><a class="anchor" href="#_hva_mener_vi_med_orden_i_eget_hus"></a>Hva mener vi med “orden i eget hus”?</h3>
+<div class="paragraph">
+<p>Med orden i eget hus mener vi at “den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem (informasjonsforvaltning). Dette innebærer også å ta stilling til hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor, og viderebruk av privat sektor. Offentlige virksomheter må prioritere utveksling av informasjon som andre virksomheter har krav på" <a href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/">(Digitaliseringsrundskrivet)</a>.</p>
+</div>
+<div class="paragraph">
+<p>For at offentlig sektor skal kunne dele med, og bruke data fra hverandre, er det viktig at de enkelte virksomheter starter med å ha oversikt over egne data, noe som er et prinsipp for god informasjonsforvaltning. Rapporten <a href="https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf">"Informasjonsforvaltning i offentlig sektor"</a> konkretiserer stegvis måloppnåelse i 5 punkter med økende ambisjonsnivå:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Datasettene i virksomheten er beskrevet i en oversikt<br></p>
+</li>
+<li>
+<p>Oversikten fra punkt 1 er publisert <br></p>
+</li>
+<li>
+<p>Tilgang til data er vurdert og beskrevet<br></p>
+</li>
+<li>
+<p>Dataelementene er beskrevet <br></p>
+</li>
+<li>
+<p>Beskrivelsene er strukturerte og maskinlesbare</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Målet er at det skal finnes gode nok metadata om datasett til at det automatisk kan prosesseres, deles og raskere kan vurderes og tas i bruk. Derfor er beskrivelser vektlagt i dette arbeidet. For at beskrivelsene skal forstås på tvers, må vi standardisere hva vi beskriver om et datasett.</p>
+</div>
+<div class="paragraph">
+<p>Nåværende utvalg av metadatafelter, som vi heretter velger å kalle beskrivelser, er definert i <a href="https://doc.difi.no/dcat-ap-no/">standarden DCAT-AP-NO</a>. Vesentlig er: ansvarlig for datasettet, kvalitetsvurderinger, hvor ofte de oppdateres, begreper som forklarer innholdet, hvilke hjemler de er tilknyttet, og hvor man kan få tak i dem. I tillegg til at datasettene er beskrevet, skal det være mulig å finne en oversikt over disse beskrivelsene, og en skal ha vurdert hvem som skal ha tilgang til ulike typer data.</p>
+</div>
+<div class="paragraph">
+<p>Digitaliseringsrundskrivet krever i tillegg at virksomheten skal vite hvilke prosesser dataene brukes i. Prosessene i virksomheten er et bra utgangspunkt for å kartlegge egne data og hvor de oppstår og tas i bruk. Vi kommer innom dette temaet i kapittelet om kartlegging av datasett.</p>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_kapittel_1"><a class="anchor" href="#_kapittel_1"></a>Kapittel 1</h2>
+<h2 id="_sikre_mandat_forankring_og_eierskap"><a class="anchor" href="#_sikre_mandat_forankring_og_eierskap"></a>Sikre mandat, forankring og eierskap</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Etiam tempus neque porttitor enim congue, vel dictum odio aliquet. Sed massa lectus, pretium nec erat in, facilisis tincidunt lorem. Phasellus ut elit ut nibh aliquet sollicitudin a in elit. Duis dolor ligula, gravida ac eros sit amet, congue ultrices lacus. Curabitur ut tincidunt ipsum, ut aliquam ipsum. Phasellus vel elit eros. Duis pellentesque risus non sollicitudin bibendum. Donec ultrices mi lectus, id feugiat leo hendrerit a. Pellentesque in urna a elit cursus consectetur in et lacus. In hac habitasse platea dictumst. Cras scelerisque, nisl in dapibus malesuada, justo risus ornare sapien, a sagittis massa enim ut nisi. Ut varius augue justo, vel efficitur ipsum suscipit sed. Duis sollicitudin lobortis ligula sit amet sagittis.</p>
+<p>Å sikre forankring kan være krevende. Start med å skape forståelse i egen organisasjon for behovet for å få orden i eget hus.</p>
 </div>
 <div class="paragraph">
-<p>Vivamus elit massa, tempus vel bibendum non, fringilla sed ex. Mauris euismod neque et quam convallis gravida. Donec molestie nulla eget arcu molestie, et interdum neque auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec nec massa vel mauris pellentesque sollicitudin quis ut ante. Nulla malesuada pharetra ex, sit amet tincidunt mi dapibus ut. Aliquam erat volutpat. Sed sed quam sapien. Sed eu iaculis lacus, maximus interdum dolor.</p>
+<p>Kontakt ledere og sentrale fagressurser i linjen og i prosjekter, og vis til hva <a href="https://www.regjeringen.no/no/dokumenter/meld.-st.-27-20152016/id2483795/">Digital agenda </a>sier om å holde orden i eget hus og hva <a href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/">Digitaliseringsrundskrivet</a> sier om tilrettelegging for gjenbruk og viderebruk av informasjon.  Disse kildene omtaler både samfunnsnytte og gevinster man kan oppnå i egen virksomhet som følge av arbeidet.</p>
+</div>
+<div class="paragraph">
+<p>Informasjonsforvaltning kan være et vanskelig tema å formidle. Del derfor gjerne arbeidet med å få orden i eget hus opp i håndterbare og konkrete aktiviteter slik at det blir lettere å forstå og ta eierskap til arbeidet. Man kan for eksempel dele arbeidet opp i begrepsarbeid, informasjonsmodellering, registrering av datasett og etablering av API’er.</p>
+</div>
+<div class="paragraph">
+<p>Bruk et enkelt språk og beskriv hva man skal oppnå, hva som skal utføres,  hvem som har ansvar for å få arbeidet gjennomført, hvordan arbeidet skal utføres og organiseres,  når det skal utføres og når det skal være ferdig. Bruk eksempler som illustrerer temaet, for eksempel figur som viser ulike måter å definere <a href="https://www.difi.no/files/samboerpptx">samboerbegrepet</a> på, eller eksempler på begreper i egen organisasjon som kan ha ulik betydning. Definer effektmål og resultatmål slik at det blir tydelig hva man skal oppnå og hvem i organisasjonen det er som er ansvarlig for å oppnå målene. Dette kan danne grunnlaget for et mandat for arbeidet slik at arbeidet blir tydelig og enklere for ledere å ta eierskap til.</p>
+</div>
+<div class="paragraph">
+<p>Sørg for at sentrale fagressurser blir involvert i beskrivelsen av punktene i forrige avsnitt, samt i den operative utførelsen av arbeidet med å skape orden i eget hus, slik at de føler eierskap til resultatet. Sikre at lederne blir løpende orientert om framdrift i arbeidet.</p>
+</div>
+<div class="paragraph">
+<p>Ta kontakt med andre etater for å bli kjent med andre sine erfaringer. Etatene som har vært med i SKATE- arbeidet har for eksempel vært villig til å dele informasjon om prosesser, organisering av arbeid, rammeverk og  bruk av verktøy.</p>
+</div>
+<div class="paragraph">
+<p>Delta på kurs og arrangementer som gir mer informasjon om temaet, og som gir muligheter for å delta på faglige nettverk. Eksempler på kurs finnes på <a href="https://www.difi.no/opplaeringstilbud/kommende-arrangementer">Difi sin arrangementsoversikt</a>. Difi arrangerer også møter i <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/fagleg-arena-informasjonsforvaltning">faglig arena for informasjonsforvaltning</a> som det kan være nyttig å delta på for å få innspill til eget arbeid i orden i eget hus.</p>
+</div>
+<div class="paragraph">
+<p>Ta gjerne kontakt med Difi eller Brønnøysundregistrene <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> hvis du ønsker noen utenfra til å fortelle om orden i eget hus og datadeling som et nasjonalt løft.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hvordan_skape_orden_i_eget_hus"><a class="anchor" href="#_hvordan_skape_orden_i_eget_hus"></a>Hvordan skape orden i eget hus?</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_modenhetsmåling"><a class="anchor" href="#_modenhetsmåling"></a>Modenhetsmåling</h3>
+<div class="paragraph">
+<p>Vi har utviklet en <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/modenhetsmodell-orden-i-eget-hus">modenhetsmodell</a> for at virksomhetene skal kunne vurdere hvor langt de er kommet i arbeidet med orden i eget hus. Også for denne modellen er datadeling målet, og orden i eget hus middelet. Modellen inkluderer flere av punktene fra <a href="https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf">Difi-rapporten</a>, både punkt 1 “Datasettene i virksomheten er beskrevet i en oversikt”, 2 “Oversikten fra punkt 1 er publisert” og 4 “Dataelementene er beskrevet” inngår i aksene i modellen.</p>
+</div>
+<div class="paragraph">
+<p>Modenhetsmodellen er verktøyet virksomhetene skal bruke for å vurdere orden i eget hus, og veilederen skal gi hjelp til å øke egen modenhet langs de ulike aksene.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_kartlegging"><a class="anchor" href="#_kartlegging"></a>Kartlegging</h3>
+<div class="sect3">
+<h4 id="_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives"><a class="anchor" href="#_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives"></a>Hva er et datasett og hvilke datasett skal beskrives?</h4>
+<div class="paragraph">
+<p>Et datasett er en organisert samling av data. Hvordan et datasett avgrenses og organiseres vil imidlertid variere mellom ulike virksomheter. Det kan gjøres ulike valg f.eks. mht. hvilke datasett som skal spesifiseres i forbindelse med en saksbehandling eller trekkes ut av en database eller et register (se <a href="https://www.difi.no/artikkel/2016/06/erfaringer-med-bestemme-hva-et-datasett-er-og-hvilke-datasett-som-skal-beskrives">Brønnøysundregistrenes tanker rundt dette</a>).</p>
+</div>
+<div class="paragraph">
+<p>I ordforklaringene til <a href="https://doc.difi.no/dcat-ap-no/">“Standard for beskrivelse av datasett og datakataloger (DCAT-AP-NO)”</a> bruker en den litt mer IT-pregede definisjonen “Et datasett er en samling med data, for eksempel i form av en tabell, liste eller en database som kan gjøres tilgjengelig som en nedlastbar fil, og/eller nåes via et Web-API.”</p>
+</div>
+<div class="paragraph">
+<p>Det er i utgangspunktet opp til virksomheten, ut fra gitte formål, å definere hvilke datasett som er relevant å beskrive, og mange vil ha lovverk og retningslinjer som sier noe om dette. Imidlertid fokuserer veilederen på datadeling, dermed kan en grovt sett si at alle datasett som virksomheten kan dele med andre, er relevant å beskrive.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_hvor_starter_jeg"><a class="anchor" href="#_hvor_starter_jeg"></a>Hvor starter jeg?</h4>
+<div class="paragraph">
+<p>Det første du må gjøre er å skaffe deg oversikt over hvilke datasett som finnes i virksomheten, og hvem som har ansvaret for disse. Vi anbefaler å utnevne en person som kan opptre som koordinator for dette arbeidet.<br>
+Begynn gjerne med arkivmedarbeidere, seksjonssjefer, avdelingsdirektører eller andre saksansvarlige, men husk at kjennskap til (og kunnskap om) datasett og registre gjerne finnes på alle nivå i virksomheten.</p>
+</div>
+<div class="paragraph">
+<p>Det kan være vanskelig å vurdere hva som er samling av data og dermed hvor stor eller liten samlingen skal være. Kriterier for å avgrense et datasett vil kunne variere mellom virksomheter og over tid. Se <a href="https://www.difi.no/artikkel/2016/06/erfaringer-med-bestemme-hva-et-datasett-er-og-hvilke-datasett-som-skal-beskrives">Brønnøysundregistrenes tanker rundt dette</a>.</p>
+</div>
+<div class="paragraph">
+<p>For noen vil det sannsynligvis være hensiktsmessig å ta for seg ulike arbeidsprosesser (f.eks. knyttet til forskjellige typer saksbehandling), og identifisere og beskrive datasett for én og én prosess. Andre måter å avgrense på kan være ut fra hjemmelsgrunnlag, overordnet, tematisk/faglig område, eller også data knyttet til tjenester. Ved utvikling av nye løsninger kartlegges gjerne informasjonsarkitekturen as-is og to-be i ny løsning. Dette er et godt utgangspunkt for å kartlegge datasett og gjøre data fra tjenesten maskinlesbart tilgjengelig. Dersom en har datasett som både brukes internt (av andre deler av virksomheten enn de som forvalter datasettene), og eksternt, bør en prioritere å starte med disse som vil gi gevinst for både egen og andre virksomheter.</p>
+</div>
+<div class="paragraph">
+<p>Avgrensninger av datasett kan være avhengig av bruksområde. Datasett kan være delmengde av andre datasett og omvendt. I DCAT-AP-NO er det flere felt som kan brukes for å beskrive relasjoner mellom datasett. De to mest åpenbare er: <a href="https://doc.difi.no/dcat-ap-no/#datasett-er-del-av">Datasett: er del av</a> og <a href="https://doc.difi.no/dcat-ap-no/#datasett-har-del">Datasett: har del.</a></p>
+</div>
+<div class="paragraph">
+<p>Eksempler på avgrensing av et datasett:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Enhetsregisteret kan betraktes som ett stort datasett. Brønnøysundregistrene har også datasett som inneholder en avgrenset mengde tema fra Enhetsregisteret. Eksempler på dette er  datasettene Juridisk Person, Virksomhet/Bedrift og Roller. I tillegg kan tilgangsnivå skille Roller i to datasett; ett komplett, og et der sensitive data er fjernet.</p>
+</li>
+<li>
+<p>I Matrikkelen er datasettene Eiendom, Adresse, Bygning. Datasettene distribueres i henhold til ulike applikasjonsskjema (informasjonsmodeller) og på ulike formater.</p>
+</li>
+<li>
+<p>Aa-registeret inneholder datasettet Arbeidsforhold - kilde: A-ordningen, relasjon til Enhetsregisteret og DSF.</p>
+</li>
+<li>
+<p>Det sentrale folkeregisteret (DSF) inneholder Innbyggere, andre personer med tilknytning til riket, bosted, samemantall osv.</p>
+</li>
+<li>
+<p>Uføre (vedtak om uførestatus) fra NAV er en avgrensning av populasjonen og dermed et datasett.</p>
+</li>
+<li>
+<p>Lovlig opphold fra UDI er et datasett</p>
+</li>
+<li>
+<p>Vernepliktige er etter lov om verneplikt en del av Forsvarets verneplikts- og tjenesteregister.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Det kan oppstå behov for å definere begrep i kartleggingsfasen og i et utviklingsprosjekt, og vi anbefaler at disse forvaltes i en felles begrepskatalog for virksomheten med tydelige forvaltningsprosesser definert (mer om dette i kapittelet om Styring og forvaltning). Begrepene bør være definert i henhold til angitt <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/standard-begrepsbeskrivelser">standard</a>. Målet på sikt er at etatenes begreper har en <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett">unik identifikator</a> som gjør at begrepet er en felles ressurs som kan pekes til og gjenbrukes på tvers av offentlig forvaltning. F.eks  fra både intern og felles datakatalog og i definerte informasjonsmodeller.</p>
+</div>
+<div class="paragraph">
+<p>Tar en for seg å beskrive ulike arbeidsprosesser anbefaler <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/arkitekturbegreper">Difi</a>  at man benytter Archimate og BPMN som felles modelleringsspråk (notasjon). Archimate (ArchiMate - architecture modeling language)  er en de-facto standard for beskrivelse av arkitektur og representerer en visuell måte å beskrive arkitekturobjekter med relasjoner i form av modeller.  Språket og modellene kan brukes for å kommunisere, designe og vurdere arkitektur.  BPMN (Business Process and Modelling Notation) brukes for prosessbeskrivelser.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_hva_er_forskjellen_mellom_oversikt_og_beskrivelse"><a class="anchor" href="#_hva_er_forskjellen_mellom_oversikt_og_beskrivelse"></a>Hva er forskjellen mellom oversikt og beskrivelse?</h4>
+<div class="paragraph">
+<p>I modenhetsmodellen skiller en mellom oversikt over datasett og beskrivelse av datasett. Men hva er forskjellen på disse? Det er kanskje lettest å se forskjellen ved å se på hensikten med oversikten og beskrivelsen. Hensikten med oversikten er at potensielle brukere (også interne) skal kunne sjekke om det finnes datasett som kan være aktuelle for en bestemt oppgave, mens beskrivelsen, som gir mer detaljert og utfyllende informasjon om datasettet, skal hjelpe brukeren å avgjøre om datasettet virkelig er aktuelt for oppgaven. En kan si at oversikten brukes til å identifisere/oppdage relevante kandidat-datasett, mens beskrivelsen skal hjelpe en til å vurdere/evaluere om informasjonen i datasettene er relevant for den aktuelle oppgaven.</p>
+</div>
+<div class="paragraph">
+<p>Eksempel på brukerhistorie: Jeg er på jakt etter et datasett som sier noe om inntekt for samboere med barn. Jeg søker gjennom felles datakatalog, og ser at både Etat A og Etat B har datasett som ut fra den kortfattede informasjonen (f.eks. tittel) kan være aktuelle. For å vurdere om datasettene virkelig inneholder det jeg ser etter, trenger jeg imidlertid en mer detaljert beskrivelse av informasjonen. I beskrivelsen finner jeg bl.a. definisjoner av begrepene som brukes i datasettet, og ser at Etat B definerer samboer på en annen måte enn en gjør innenfor mitt fagområde. Dette datasettet er derfor ikke aktuelt for min bruk, men Etat A viser seg å ha samme definisjon både på samboer og inntekt som det jeg bruker i mine analyser.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_prioritering"><a class="anchor" href="#_prioritering"></a>Prioritering</h3>
+<div class="paragraph">
+<p>Å lage oversikt over og beskrive datasett vil ta tid, og det anbefales å starte i det små med datasett som en vet eller tror er etterspurt av andre. Viktige spørsmål å stille er: finnes noen kjente brukerbehov? Vet vi hva som er mest etterspurt? Hva har antatt høyest verdi for brukerne? Finnes noen lavthengende frukter? Kostnader vs. antatt nytteverdi?</p>
+</div>
+<div class="paragraph">
+<p>Prioriteringen av hvilke datasett som bør kartlegges og beskrives avhenger av hvilke drivere en har for å jobbe med orden i eget hus. Vi har her tatt utgangspunkt i behovet for deling, men det kan være andre faktorer som er viktige avhengig av hvilke mål som skal oppfylles.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/images/Prioritering.png" alt="Prioritering">
+</div>
+</div>
+<div class="paragraph">
+<p>Figur 1: Prioritering av datasett</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vurdering_av_tilgangsnivå"><a class="anchor" href="#_vurdering_av_tilgangsnivå"></a>Vurdering av tilgangsnivå</h3>
+<div class="paragraph">
+<p>En enkel klassifisering av datasett i ulike tilgangsnivå er nyttig både for deg som dataforvalter og for brukerne som skal vurdere om dine datasett er egnet til andre formål. Vi anbefaler <em>trafikklyssystemet<em></em> </em>- et system som deler informasjon i tre tilgangsnivå: <em>offentlig (grønn), begrenset offentlighet (gul)</em> og <em>unntatt offentlighet (rød)</em>. Klassifiseringen gjelder for hele datasett og ikke enkeltvis for opplysningene i et datasett.</p>
+</div>
+<div class="paragraph">
+<p>Det er alltid den mest konfidensielle opplysningen i datasettet som er utgangspunkt for klassifiseringen. Dersom ett av feltene eksempelvis er skjermet informasjon, så skal hele datasettet klassifiseres på grunnlag av dette.</p>
+</div>
+<div class="sect3">
+<h4 id="_offentlig_grønn"><a class="anchor" href="#_offentlig_grønn"></a>Offentlig (grønn)</h4>
+<div class="paragraph">
+<p>Et datasett som klassifiseres som offentlig kan gjøres gratis tilgjengelig for alle. Offentleglovas hovedregel gjelder, og ingen unntakshjemler kommer til anvendelse. Kategorien omfatter også løsninger for tilgang som krever brukeregistrering/API-nøkler, så lenge alle kan få tilgang til de fysiske dataene.</p>
+</div>
+<div class="paragraph">
+<p>Ettersom regjeringen anbefaler offentlige virksomheter å gi fra seg egne eksklusive økonomiske rettigheter ved tilgjengeliggjøring av offentlige data, skal datasett som er omfattet av virksomhetens egen opphavsrett (inkludert databaserettigheter) klassifiseres som grønne. Data fra det offentlige som er klassifisert som offentlig, som har en åpen lisens og som er gjort tilgjengelig gratis for alle i et maskinlesbart format kalles åpne offentlige data.</p>
+</div>
+<div class="paragraph">
+<p>Informasjon som enhver kan få innsyn i, men som likevel ikke kan publiseres eller gjøres tilgjengelig for allmennheten i tråd med viderebruksbestemmelsene i Offentleglova (for eksempel fordi de inneholder personopplysninger), skal ikke klassifiseres som offentlig.</p>
+</div>
+<div class="paragraph">
+<p>Formålet med kategorien offentlig er å kunne skille ut datasett som enten alt er gjort tilgjengelig som åpne offentlige data eller som potensielt kan gjøres tilgjengelig som åpne offentlige data, fra øvrige datasett.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_begrenset_offentlighet_gul"><a class="anchor" href="#_begrenset_offentlighet_gul"></a>Begrenset offentlighet (gul)</h4>
+<div class="paragraph">
+<p>Et datasett som er klassifisert som begrenset offentlighet kan ikke gjøres åpent tilgjengelig for alle. Datasettet inneholder opplysninger som medfører at det må gjøres en vurdering (saksbehandling) før tilgang eventuelt kan gis. Årsakene til skjerming kan for eksempel være at:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>datasettet inneholder personopplysninger</p>
+</li>
+<li>
+<p>datasettet er omfattet av tredjeparts opphavsrett</p>
+</li>
+<li>
+<p>datasettet er omfattet av taushetsrett</p>
+</li>
+<li>
+<p>datasettet er skapt eller delt under avtaler om å ikke offentliggjøres</p>
+</li>
+<li>
+<p>tilgang til datasettet er begrenset med hjemmel i en av unntaksbestemmelsene i offentleglova</p>
+</li>
+<li>
+<p>datasettet er kun tilgjengelig mot avgift</p>
+</li>
+<li>
+<p>tilgang er ikke vurdert</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Kategorien omfatter data med et bredt spekter av årsaker til skjerming. Felles for disse er at data potensielt kan gjøres tilgjengelig på visse vilkår. Eksempler på vilkår som kan gi tilgang:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>brukeren som ønsker tilgang har lovhjemmel for tilgang for et beskrevet formål.</p>
+</li>
+<li>
+<p>dataeier er omfattet av utleveringshjemler som pålegger eller muliggjør deling for visse formål eller til konkrete aktører</p>
+</li>
+<li>
+<p>personene som personopplysningene omhandler har gitt samtykke til partenes bruk av data</p>
+</li>
+<li>
+<p>det inngås avtaler med eventuelle tredjeparter med opphavsrett til informasjonen om tilgang og bruk av datasettet</p>
+</li>
+<li>
+<p>formålet til brukeren samsvarer med formålet for innsamlingen av data</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Formålet med kategorien begrenset offentlighet er kunne skille ut datasett som kun kan deles under visse vilkår fra øvrige datasett.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_unntatt_offentlighet_rød"><a class="anchor" href="#_unntatt_offentlighet_rød"></a>Unntatt offentlighet (rød)</h4>
+<div class="paragraph">
+<p>Det kreves særskilt rettslig grunnlag for å få tilgang til datasettet. Typiske eksempler er gradert informasjon, sensitive personopplysninger eller forretningshemmeligheter. Aktuelle grunnlag for utlevering kan være samtykke fra den/de som har rett på vern, særhjemler eller partsinnsyn (partenes rett til å gjøre seg kjent med opplysninger i egen sak).</p>
+</div>
+<div class="paragraph">
+<p>Formålet med kategorien unntatt offentlighet er kunne skille ut data som kun kan deles på særskilt rettslig grunnlag.</p>
+</div>
+<div class="paragraph">
+<p>Uansett hvordan du klassifiserer datasettet, er det viktig å spesifisere hvilken hjemmel som ligger til grunn for innsamlingen og bruken av datasettet. Vurderingen går også her ut på om deler av et begrenset datasett likevel kan gjøres tilgjengelig som “grønne” data. Det som klassifiseres som rødt, skal likevel beskrives og beskrivelsene tilgjengeliggjøres i Felles datakatalog. <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> Behovet for å vite hva begrensningene for bruken av et datasett er, er viktig for den som skal vurderer å ta i bruk et datasett. Derfor bør du også henvise til den lovformuleringen med hjemmel og formål som regulerer bruken av datasettet, for eksempel i Lovdata. Se ellers <a href="https://doc.difi.no/data/spesifikasjon-for-beskrivelse-av-formal-og-hjemmel/">spesifikasjon for beskrivelse av formål og hjemmel.</a></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_beskrive_data"><a class="anchor" href="#_beskrive_data"></a>Beskrive data</h3>
+<div class="sect3">
+<h4 id="_standard_for_beskrivelse_av_datasett_dcat_ap_no"><a class="anchor" href="#_standard_for_beskrivelse_av_datasett_dcat_ap_no"></a>Standard for beskrivelse av datasett - DCAT-AP-NO</h4>
+<div class="paragraph">
+<p>I 2015 besluttet Difi at <a href="https://doc.difi.no/dcat-ap-no/">“Standard for beskrivelse av datasett og datakataloger”</a>, også kalt DCAT-AP-NO,  skal være anbefalt forvaltningsstandard. Dette er den norske versjonen av EU-standarden DCAT-AP (Data Catalog Vocabulary - Application Profile) og skal sikre at beskrivelser av offentlige data i Norge utføres på en felles, strukturert måte og i en maskinlesbar form. Kontakt <a href="mailto:informasjonsfovaltning@difi.no">informasjonsfovaltning@difi.no</a> ved spørsmål og innspill knyttet til bruk, eller innmelding av uløste behov.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_standarder_for_begrepsarbeid"><a class="anchor" href="#_standarder_for_begrepsarbeid"></a>Standarder for begrepsarbeid</h4>
+<div class="paragraph">
+<p>Når det gjelder beskrivelse av begreper knyttet til data, kan det organiseres på ulike måter. <a href="https://www.difi.no/sites/difino/files/rammeverk_for_begrepsarbeidet_i_bronnoysundregistrene_v._1.0.pdf">Brønnøysundregisrene har utviklet et eget rammeverk for begrepsarbeid</a>. Flere virksomheter arbeider med begrepskataloger (bl.a. Brønnøysundregistrene, <a href="https://www.difi.no/sites/difino/files/retningslinjer_bk_v1.2.pdf">NAV</a> og Skatteetaten) der de definerer både begreper som inngår i datasett og andre begreper som er relevante i virksomhetens arbeid. Andre har valgt å konsentrere begrepsarbeidet hovedsakelig om variabler knyttet til identifiserte datasett.</p>
+</div>
+<div class="paragraph">
+<p>Det finnes i dag flere anbefalinger vedrørende begrepsarbeid i <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/begrepsanalyse-og-definisjonsarbeid">Referansekatalogen for IT-standarder i offentlig sektor</a>. Det finnes en <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/standarder/standard-begrepsbeskrivelser">Forvaltningsstandard for begrepsbeskrivelse </a>som viser hvilke elementer som skal med når et begrep beskrives. <a href="https://www.difi.no/artikkel/2019/03/forvaltningsstandarder-maskinell-tilgjengeliggjoring-av-begrepsbeskrivelser">Tilknyttet denne er det to forvaltningsstandarder for maskinell tilgjengeliggjøring av begrepsbeskrivelser</a>.</p>
+</div>
+<div class="paragraph">
+<p>I tillegg har vi <a href="https://www.difi.no/sites/difino/files/standard-for-begrepskoordinering-2013-02-13-1-.pdf">Standard for begrepskoordinering 1.0</a>. Standarden beskriver en prosess for å koordinere begreper mellom to eller flere parter innenfor offentlig sektor, inkludert en anbefaling om ”beste praksis”. Dette vil være særlig aktuelt i prosjekter som involverer deling av data. Selv om hovedbruken av standarden vil være knyttet til samarbeidsprosjekter mellom etater, vil standarden også være nyttig i internt arbeid med begrepskoordinering (i tilfeller der ulike deler av en virksomhet har ulike definisjoner av samme begrep). Noen forskjeller kan f.eks. skyldes at en forholder seg til ulike lovverk, andre at ulike deler av en virksomhet ikke kjenner nok til begrepsbruken hos andre og lager egne definisjoner.</p>
+</div>
+<div class="paragraph">
+<p>I tillegg anbefales «Termlosen» <sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> som veileder i arbeidet med å analysere eksisterende begrepsbruk og komme fram til et koordinert begrepsapparat.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_vurdering_og_beskrivelse_av_kvalitet_på_datasett"><a class="anchor" href="#_vurdering_og_beskrivelse_av_kvalitet_på_datasett"></a>Vurdering og beskrivelse av kvalitet på datasett</h4>
+<div class="paragraph">
+<p>Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål enn de først ble skapt for. Dokumentering av datakvalitet er til stor hjelp i prosessen med å vurdere om virksomhetens datasett er egnet til andre formål, og øker sjansen for gjenbruk. Datakvaliteten bør derfor være dokumentert, og kjente utfordringer knyttet til datakvalitet bør eksplisitt omtales i beskrivelsen.</p>
+</div>
+<div class="paragraph">
+<p>En veiledende regel kan være at det som er bra nok for eget arbeid, også er bra nok for å dele med omverdenen. En erfaring flere har gjort seg, er at tilgjengeliggjøring fører til bedre kvalitet. Når informasjon gjøres tilgjengelig, er det flere som kan oppdage og gi tilbakemelding om potensielle feil, og eier kan rette opp disse.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advarsel"></i>
+</td>
+<td class="content">
+Det er i tillegg utarbeidet en egen <a href="https://doc.difi.no/data/kvalitet-pa-datasett">spesifikasjon for beskrivelse av kvalitet i datasett</a>, men i gjeldende versjon av DCAT-AP-NO er det foreløpig ikke implementert støtte for denne.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_api_katalog_en_oversikt_over_grensesnitt_til_data"><a class="anchor" href="#_api_katalog_en_oversikt_over_grensesnitt_til_data"></a>API-katalog - en oversikt over grensesnitt til data</h4>
+<div class="paragraph">
+<p>Det er ønskelig at deling av data i økende grad gjøres i sanntid. For å få dette til må grensesnittene mellom datasettene defineres, publiseres og harmoniseres, både på et semantisk og teknisk nivå. Felles datakatalog og DCAT-AP-NO utvides derfor med beskrivelser av tekniske datatjenester og pekere til hvor du kan finne dem, såkalte applikasjonsgrensesnitt (APIer). Fordeler med denne tilnærmingen er at søk på datasett også gir oversikt over hvilke APIer som kan benyttes for tilgang til dataene, og standardiserte beskrivelser av APIer gjør det gjenkjennelig for utviklerne hvordan de kan benyttes. Med en felles tilnærming til hvordan grensesnittene utformes blir det dermed enklere å sikre riktig bruk og forståelse av tjenester og data.</p>
+</div>
+<div class="paragraph">
+<p>API-ene må beskrives med en rekke forhold, bl.a. under hvilke tekniske standarder de formidles, hva slags innhold som utveksles (referanse til datasett-beskrivelse), under hvilke avtaler (SLA) de kan formidles osv.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Alle tjenester som er av felles interesse og nytte er beskrevet på en felles strukturert måte, og beskrivelsene er enkelt tilgjengelige</p>
+</li>
+<li>
+<p>API-ene er beskrevet og gjort tilgjengelig på en slik måte at de lett kan gjenbrukes i nye tjenester.</p>
+</li>
+<li>
+<p>Det er etablert mekanisme for deling av data i sanntid, inkl. direkte oppslag i bl.a. registre som inneholder grunndata. Publisering av grunndata følger felles informasjonsmodeller</p>
+</li>
+<li>
+<p>Felles informasjonsmodeller for sentrale entiteter (f.eks. person, adresse, organisasjon) er etablert og tilgjengeliggjort som gjenbrukbare, standardiserte modeller og tjenestemodeller som gjelder utveksling av grunndata er etablert og tilgjengeliggjort og baseres på felles informasjonsmodeller.</p>
+</li>
+<li>
+<p>En felles lavterskel løsning for å tilgjengeliggjøre kodeverk er vurdert</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advarsel"></i>
+</td>
+<td class="content">
+Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrivelse av API-er er pågående. Kontakt <a href="mailto:informasjonsforvaltning@digdir.no">informasjonsforvaltning@digdir.no</a> for mer informasjon.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_informasjonsmodeller"><a class="anchor" href="#_informasjonsmodeller"></a>Informasjonsmodeller</h4>
+<div class="paragraph">
+<p>Ulik forståelse og ulik representasjon av sentral felles informasjon hindrer effektiv informasjonsutveksling og samhandling mellom organisasjoner. Det er vanskelig å gjenbruke dataene når de organiseres og navngis forskjellig fra system til system. Felles objekter som person, adresse og organisasjon representeres ulikt på tvers av tjenester. Dette medfører store kostnader for hver integrasjon, også med store muligheter for feil.</p>
+</div>
+<div class="paragraph">
+<p>Det er derfor et behov for felles forståelse og lik representasjon av grunnleggende informasjon. Forståelse etableres med et felles begrepsapparat, og ved å etablere standardiserte beskrivelser for data og sammenhengene mellom data-elementene ved hjelp av informasjonsmodeller.</p>
+</div>
+<div class="paragraph">
+<p>For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.</p>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Advarsel"></i>
+</td>
+<td class="content">
+Referanse til informasjonsmodeller er ikke løst i gjeldende versjon av DCAT-AP eller i Felles datakatalog. Det er i dag anbefalt å legge inn referanse til datamodeller i feltet <a href="https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med">Datasett: i samsvar med</a> i DCAT-AP-NO. Kontakt <a href="mailto:informasjonsforvaltning@digdir.no">informasjonsforvaltning@digdir.no</a> for mer informasjon.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tilgjengeliggjøre_beskrivelsene"><a class="anchor" href="#_tilgjengeliggjøre_beskrivelsene"></a>Tilgjengeliggjøre beskrivelsene</h3>
+<div class="sect3">
+<h4 id="_datakatalog_en_oversikt_over_datasett"><a class="anchor" href="#_datakatalog_en_oversikt_over_datasett"></a>Datakatalog - en oversikt over datasett</h4>
+<div class="paragraph">
+<p>En datakatalog er en sammenstilling av strukturerte beskrivelser av datasett. Katalogen inneholder gjerne pekere til hvor datasettene finnes (lenke til distribusjoner), men inneholder altså ikke selve datasettene  I Norge er <a href="https://doc.difi.no/dcat-ap-no/">Standard for beskrivelse av datasett og datakataloger</a> (DCAT-AP-NO) anbefalt for alle offentlige virksomheter. Eksempler på opplysninger i en datasettbeskrivelse er tittel, beskrivelse, utgiver,  kontaktpunkt, gyldighetsperiode og dekningsområde. En gjennomgang av alle de obligatoriske, anbefalte og valgfrie feltene og hvordan disse skal fylles ut finnes i <a href="https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/">veilederen for beskrivelse av datasett.</a></p>
+</div>
+<div class="paragraph">
+<p><a href="https://fellesdatakatalog.brreg.no/">Felles datakatalog</a> er en nasjonal katalog over datasett, og det enkelte datasett er beskrevet i henhold til nevnte standard. Datasett kan enten beskrives og registreres direkte i Felles datakatalog, eller virksomheten kan etablere en lokal datakatalog som Felles datakatalog høster fra.</p>
+</div>
+<div class="paragraph">
+<p>En lokal datakatalog kan være nyttig for å få en tettere kobling mellom beskrivelsene og selve datasettene. Enkeltopplysninger kan da hentes maskinelt fra kilden, som for eksempel når datasettet sist ble oppdatert (endringsdato).</p>
+</div>
+<div class="paragraph">
+<p>Videre kan en lokal datakatalog inneholde mer informasjon enn det som vil bli høstet av Felles datakatalog, for eksempel, kontaktinformasjon til interne ressurser med ulike ansvar knyttet til datasettet og omtale av datasett som kun er relevante for virksomheten selv.</p>
+</div>
+<div class="paragraph">
+<p>Datasettene kan registreres manuelt i <a href="https://registrering-fdk.ppe.brreg.no/loggin">registreringsløsningen til Felles datakatalog</a> , eller ved å tilgjengeliggjøre en lokal datakatalog (i samsvar med DCAT-AP-NO) som Felles datakatalog høster beskrivelser fra.</p>
+</div>
+<div class="paragraph">
+<p>Generelt anbefales det å tilgjengeliggjøre omtale av datasett før de er “perfekte”. Oversikter og datasettbeskrivelser kan utdypes og forbedres over tid. Man bør heller ikke vente til “hele huset er i orden” før man begynner å tilgjengeliggjøre informasjon om datasett.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_synliggjøring_og_brukerdialog"><a class="anchor" href="#_synliggjøring_og_brukerdialog"></a>Synliggjøring og brukerdialog</h3>
+<div class="paragraph">
+<p>Regjeringen legger i sine <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer for tilgjengeliggjøring av offentlige data</a> opp til at offentlige virksomheter aktivt skal oppmuntre til bruk av egne data. Dette omfatter også aktiviteter som bidrar til økt kompetanse hos de som ønsker å ta i bruk virksomhetens data. Eksempler her er hackatons, workshops, seminarer og brukerforum.</p>
+</div>
+<div class="paragraph">
+<p>Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomheten ha bedre forutsetninger for å forstå behovene til brukerne. Dette vil bidra til å forbedre kvaliteten på publiserte data og til å bygge tillit mellom dataforvalter og bruker.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_styring_og_forvaltning"><a class="anchor" href="#_styring_og_forvaltning"></a>Styring og forvaltning</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Organiseringen av orden i eget hus- arbeidet varierer med type virksomhet og ambisjonsnivå. Mange starter med begrepsarbeid, og vi beskriver under hvordan dette arbeidet foregår i Brønnøysundregistrene og NAV i kapittelet <a href="#_roller_i_begrepsarbeidet">Roller i begrepsarbeidet</a></p>
+</div>
+<div class="paragraph">
+<p>Helt overordnet, er det viktig å se flere ulike områder i sammenheng, slik at styringen forsterker også andre prosesser, og ikke jobber på tvers av dem. Se på eksisterende føringer og retningslinjer, prosesser og andre krav som virksomheten er pålagt å følge. Alt inngår i en styrings- og forvaltningsprosess for data og informasjon, men alle områdene er ikke nødvendigvis underlagt denne nye prosessen. Risikohåndtering, kvalitetskrav, forretningsprosesser / formål, teknologi som er tilgjengelig og nødvendig, kompetanse, ressurser og så videre er alle viktige vurderinger som må sees i en helhet for å lykkes med en god styring og håndtering av data i en virksomhet. Begynn gjerne der modenheten er størst og du har flere å alliere deg med.</p>
+</div>
+<div class="sect2">
+<h3 id="_overordnet_organisering_roller_og_prosesser"><a class="anchor" href="#_overordnet_organisering_roller_og_prosesser"></a>Overordnet organisering, roller og prosesser</h3>
+<div class="paragraph">
+<p>Masterdata og begrepsarbeid henger tett sammen. Styring og håndtering av masterdata (master data management (MDM)) i en virksomhet er kjernen i en vellykket gjennomføring. Det å få kontroll på hvilke registre eller datasett som utgjør kjernevirksomheten kan lett knyttes til interne prosesser som vil bli mer effektive, oversiktlige og kvalitetsmessig bedre. En leder for et område vil kunne ønske å delta i arbeidet med å definere hva det fagområdet betyr fordi konsekvensen av den definisjonen vil få praktiske betydninger, bl.a. for samvirkende systemer. Er kunde udefinert, vil det kunne være krevende å vite nøyaktig hva som kreves for å telle antall kunder. Gjelder en definisjonen for globale kunder som handler i flere land, kundebestillinger per land, eller noe annet?</p>
+</div>
+<div class="sect3">
+<h4 id="_styringsmodeller"><a class="anchor" href="#_styringsmodeller"></a>Styringsmodeller</h4>
+<div class="paragraph">
+<p>Det blir behov for en styringsmodell for å fordele ansvar på ulike nivåer i organisasjonen ettersom arbeidet med orden i eget hus skrider frem. Ved å involvere ulike personer, og vite hvilke rolle de potensielt kan få, vil det også synliggjøre for deg hvilke argumenter du bør bruke for å få dem med i arbeidet. Avhengig av størrelsen på organisasjonen og antall ressurser til rådighet, kan en slik styringsmodell bestå av et sted mellom to til fire nivåer. Noen av rollene kan fylles av de samme enkeltindividene. Et utvalg av roller beskrives overordnet under:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ledergruppen utgjør ofte styringsgruppen og består av senior-ledere som dekker alle funksjoner  i organisasjonen. De styrer strategisk retning og tar budsjettavgjørelser. For å få fart og prioritering er det lurt å få disse ombord, men ta gjerne med deg et case og noen andre interessenter før du presenterer saken din i et ledermøte. Prosjektet bør ha en eier i ledergruppen som kan være den med overordnet ansvar for informasjonsforvaltningsstrategien og/eller styrende dokumenter.</p>
+</li>
+<li>
+<p>Et “råd” for informasjonsforvaltning består av ledere innen utvalgte fagområder. De er modne, eller lar seg modne, i forståelsen for hvorfor dette gjøres og er inneforstått med ansvaret de har. De bidrar til å overholde strategien og tilbyr veiledning om retning til ulike fagområder. De prioriterer innsatsområder, finansieringsprosjekter og styrer måleindikatorer for sine deler av virksomheten.</p>
+</li>
+<li>
+<p>En arbeidsgruppe består av eksperter og ledere innen fag og IT og må kunne navigere mellom fagområder og IT. Gjennomfører administrative oppgaver og avklaringer og sørger for at de ulike enhetene snakker sammen eller koordinerer innsatsen.</p>
+</li>
+<li>
+<p>Ofte vil det finnes ett eller flere støtteteam, som har overlappende/tilgrensende oppgaver. De består av en manager eller eier av datasett. I tillegg består støtten av de som er praktiske tilretteleggere og forvaltere av de daglige oppgavene for datasettene i systemene. De er avgjørende for gjennomføringen av endringer og oppdateringer og faktisk tilgang til data på tvers av ulike løsninger.</p>
+</li>
+<li>
+<p>Brukere av data i en virksomhet utgjør også en viktig støtte for et informasjonsforvaltnings”lag”. Data scientists er blitt populære, men også de er avhengige av tilgjengelige data, og deler av informasjonsforvaltningsteamet vil ha nytte av tilbakemeldinger om hvor enkelt eller vanskelig det er å nyttegjøre seg av datasett og metadata. Analytikere, personvernombudet, produkt- og systemeiere med flere vil være nyttige å ha med som støttende medspillere.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Det finnes gjerne en todeling mellom de som er sentrale styrings- og forvaltningsansvarlige for informasjon og data i virksomheten, og de som er ansvarlig for de ulike funksjonelle fagområdene. Det viktigste i en slik styringsmodell er at ansvaret for datasett og metadata ligger hos fagsiden og eiere av tjenester og produkter. Informasjonsforvaltningsgruppen støtter fagsiden i deres arbeid.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid"><a class="anchor" href="#_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid"></a>Organisering, roller og arbeidsprosesser i begrepsarbeid</h3>
+<div class="paragraph">
+<p>En vanlig utfordring er at begrepsarbeid ofte starter i forbindelse med større prosjekter der begrepsarbeid ikke nødvendigvis er hovedsaken, men nødvendig for et godt resultat. Utfordringen vil da ofte være å få dette begrepsarbeidet over i en driftsfase (med inkludering av nye begreper og oppdatering) når det opprinnelige prosjektet avsluttes. Det er viktig at noen får ansvar for å koordinere begrepsarbeidet på tvers i en virksomhet. Dersom en bruker begreper som kommer fra andre, eller hvis en vet at andre jobber innenfor samme fagområde, vil det være lurt å sjekke om andres begrepsbeskrivelser kan brukes.</p>
+</div>
+<div class="paragraph">
+<p>Begrepenes livssyklus bør defineres gjennom en prosess, se eksempel under. Prosessen bør også ta høyde for endringer og revisjoner (nye versjoner etter godkjenning)<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup>.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/images/Prosess_begrep_Brreg.png" alt="Prosess begrep Brreg">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Figur 2_</em>:Prosess i begrepsarbeid</p>
+</div>
+<div class="sect3">
+<h4 id="_roller_i_begrepsarbeidet"><a class="anchor" href="#_roller_i_begrepsarbeidet"></a>Roller i begrepsarbeidet</h4>
+<div class="paragraph">
+<p>Informasjonsarkitektens rolle i forbindelse med begreper er å involvere forvaltere av Begrepskatalogen og melde fra om begrepsbehov fra forretning og IT som oppstår i prosjektet. Dersom det oppstår nye begreper som beskriver for eksempel ny funksjonalitet som prosjektet utvikler, er prosjektet midlertidig saksbehandler for begrepet fram til leveransen er ferdig og funksjonaliteten overtas av linjen</p>
+</div>
+<div class="paragraph">
+<p>For å sikre framdrift på begrepsarbeidet, bør det etableres noen føringer for arbeidet, for eksempel i form av rammeverk og/eller retningslinjer, samt en prosess for å kvalitetssikre arbeidet. Rammeverk og prosess kan forvaltes for eksempel av miljøer på forretningssiden, gjerne hos miljøer som har et særskilt ansvar for informasjonsforvaltningen i virksomheten. Det samme miljøet bør også eie den samlede oversikten over beskrivelser av begrep. For å forvalte begrepene bør man etablere en begrepskatalog.</p>
+</div>
+<div class="paragraph">
+<p>Den som eier rammeverk, prosess og katalog kan ha en del ansvar knyttet til oppgaven, for eksempel:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Sørge for tilgjengeliggjøring av begrepskatalogen, opplæring m.m</p>
+</li>
+<li>
+<p>Tilrettelegge for at verktøyene for begrepsarbeid fungerer og støtter arbeidet optimalt</p>
+</li>
+<li>
+<p>Sørge for effektiv formidling av, og nødvendig informasjon om, begrepsarbeidet i virksomheten</p>
+</li>
+<li>
+<p>Sørge for at begrepskoordinator-rollen blir ivaretatt</p>
+</li>
+<li>
+<p>Sørge for dialog og å oppdatere rammeverk i samarbeid med informasjonsforvaltningsmiljøet</p>
+</li>
+<li>
+<p>Passe på at prosessen for utarbeidelse og kvalitetssikring blir fulgt</p>
+</li>
+<li>
+<p>Bidra til harmonisering av innhold</p>
+</li>
+</ul>
+</div>
+<div class="sect4">
+<h5 id="_begrepskoordinator"><a class="anchor" href="#_begrepskoordinator"></a>Begrepskoordinator</h5>
+<div class="paragraph">
+<p>For å sikre at begrepsarbeidet får framdrift og fokus, bør det være en eller flere som har som sitt daglige ansvar å tilrettelegge for dokumentasjon av begrepene på vegne av hele virksomheten. Dette kan være en koordinerende rolle, som typisk kan ha følgende ansvar:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>være prosessdriver for begrepsarbeidet i virksomheten</p>
+</li>
+<li>
+<p>følge med på at begrepene blir utarbeidet etter retningslinjene til rammeverket, og hjelpe begrepseiere (se under) med å følge disse.</p>
+</li>
+<li>
+<p>ha ansvar, i samråd med evt koordinatorer på den enkelte avdeling,<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup> for plassering av eierskap til begrepene</p>
+</li>
+<li>
+<p>kontrollere at evt. status <sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> til begrepene er plassert riktig i forhold til hvor langt man har kommet i utarbeidelses- og kvalitetssikringsprosessen</p>
+</li>
+<li>
+<p>ha oversikt over helheten og bidra til harmonisering av innhold</p>
+</li>
+<li>
+<p>drive opplæring knyttet til begrepsfangst og terminologiarbeid, samt begrepsprosess og rammeverk, og oppdatere disse ved behov</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_begrepseier"><a class="anchor" href="#_begrepseier"></a>Begrepseier</h5>
+<div class="paragraph">
+<p>Det enkelte fagområdet eier sine begreper og har rollen som begrepseier. Det bør kun være én begrepseier per begrep. Med begrepseier menes her en organisatorisk enhet knyttet til organisasjonskartet i virksomheten. Rammeverket kan legge opp til at eierskap til begreper legges minimum på avdelingsnivå, og at avdelingene selv avgjør om eierskapet plasseres lenger ned i organisasjonen. Det er avgjørende å ha på plass en slik rolle for å sikre at begrepene utarbeides og kvalitetssikres av det miljøet som er nærmest det fagområde et begrep kommer fra. Plassering av eierskap vil variere avhengig av organiseringen i den enkelte virksomhet. For eksempel kan enheter som forvalter et rettsområde eller enkeltlover, forskrifter og enkeltbestemmelser, ha ansvaret for å tolke begrepene som lovgiver har benyttet i det aktuelle regelverket. Det bør være fagansvarlig som beslutter hvilken definisjon som skal gjelde, hvilken term som skal benyttes, da fagansvarlig, i rollen som begrepseier, er ansvarlig for virksomhetens forståelse av begrepet. Dette innebærer for eksempel at Rettsavdelingen er ansvarlig for at begreper i f. eks forvaltningsloven, offentleglova eller egen særlovgivning blir definert, og at IT-avdelingen er ansvarlig for at f.eks. begreper på Informasjonssikkerhetsområdet blir definert.</p>
+</div>
+<div class="paragraph">
+<p>Ansvar og oppgaver som bør innehas av begrepseieren:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Sikre at begrepene blir definert i forhold til retningslinjene i rammeverket</p>
+</li>
+<li>
+<p>Involvere eventuelle interessenter i definisjonsarbeidet</p>
+</li>
+<li>
+<p>Sørge for at begrepene ferdigstilles og blir godkjent</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_andre_roller_som_kan_inngå_i_begrepsarbeidet"><a class="anchor" href="#_andre_roller_som_kan_inngå_i_begrepsarbeidet"></a>Andre roller som kan inngå i begrepsarbeidet</h4>
+<div class="sect4">
+<h5 id="_interessenter"><a class="anchor" href="#_interessenter"></a>Interessenter</h5>
+<div class="paragraph">
+<p>Interessent er den/de som har en interesse i begreper som defineres i en begrepskatalog, men som de selv ikke har eierskap til i virksomheten.<br>
+Det er begrepseier sitt ansvar å sørge for at interessenter får mulighet til å komme med innspill til begrepsdefineringen. Involvering av interessenter skal bidra til</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>å sikre kvaliteten på begrepene</p>
+</li>
+<li>
+<p>å få en omforent forståelse og forankring av definisjon på et tidlig tidspunkt</p>
+</li>
+<li>
+<p>å sikre helhetlig termforståelse i virksomheten
+Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begrepene.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_melder_av_begrepsbehov_innmelder"><a class="anchor" href="#_melder_av_begrepsbehov_innmelder"></a>Melder av begrepsbehov (innmelder)</h5>
+<div class="paragraph">
+<p>Innmelder er den parten som har behov for at et begrep blir definert. For å sikre at begrepsarbeidet er en prioritert aktivitet og at arbeidet skal være tilgjengelig for hele virksomheten, kan det være naturlig at man er liberal med hvem som har mulighet til å melde behov for nye begreper inn i en begrepskatalog. Tilgangen til å melde inn kan for eksempel være slik:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Linjen kan melde inn begreper. Både linjen med begrepseierskap og fagansvar kan melde inn begreper i begrepskatalogen, men linjen kan også melde inn begreper som man selv ikke har eierskap til.</p>
+</li>
+<li>
+<p>Prosjekter kan melde inn behov for å få avklart begreper. Når prosjektene gjør arbeid som innebærer definisjoner og avgrensninger knyttet til produkt eller løsning bør disse meldes inn i begrepskatalogen.</p>
+</li>
+<li>
+<p>Enkeltpersoner kan melde inn begreper de trenger definert i begrepskatalogen.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_valg_av_verktøy"><a class="anchor" href="#_valg_av_verktøy"></a>Valg av verktøy</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_begrepskatalog"><a class="anchor" href="#_begrepskatalog"></a>Begrepskatalog</h3>
+<div class="paragraph">
+<p>Begreper bør defineres og dokumenteres i én felles begrepskatalog og tilgjengeliggjøres til bruk for alle fagområder, både internt i virksomheten og eksternt. Hver virksomhet vil ha ulike behov knyttet til verktøystøtte, men det kan være nyttig å se etter verktøy som tilbyr prosesstøtte og tilgangsstyring for opprettelse, redigering, oppdatering og sletting av begrep.</p>
+</div>
+<div class="paragraph">
+<p>Virksomheten bør også tilgjengeliggjøre rammeverk og retningslinjer, informasjon om prosess og roller og opplæring på et egnet sted. Det bør også være god støtte for gjenfinning av data, herunder instanser av begreper, med forenklet og avansert søk og filtrering, oppslag og visning, evt også visualisering av begreper. Det bør også tas høyde for at begrepene skal kunne tilgjengeliggjøres maskinelt. Derfor er det lurt å stille krav til eksport/import og støtte for standardformater.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lokal_datakatalog"><a class="anchor" href="#_lokal_datakatalog"></a>Lokal datakatalog</h3>
+<div class="paragraph">
+<p>Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en lokal datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe for å støtte norske tillegg. Felles datakatalog, som utvikles og forvaltes av Brønnøysundregistrene, er en lavterskel løsning som støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på <a href="https://github.com/Altinn/fdk/blob/master/README.md">GitHub</a>, og Difi anbefaler å implementere denne løsningen lokalt.</p>
+</div>
+<div class="paragraph">
+<p>Ved mer komplekse behov finnes andre løsninger som kan benyttes til en lokal datakatalog, f.eks:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://ckan.org/">CKAN</a> : en komplett løsning for både beskrivelse og distribusjon av datasett. Støtter eksport til de fleste egenskapene i DCAT-AP om en bruker <a href="http://extensions.ckan.org/extension/dcat/">denne utvidelsen</a>. Statens vegvesen har utviklet <a href="https://github.com/vegvesen/ckanext-dcat_ap_no">et programtillegg</a> som også ivaretar de norske utvidelsene.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://getdkan.com/features/">DKAN</a>: En løsning bygget på publiseringsløsningen Drupal. Kort om forskjellen på DKAN og CKAN finner du <a href="http://docs.getdkan.com/en/latest/introduction/dkan-ckan.html">her</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://thedatatank.com/">The datatank:</a>  En løsning med fokus på distribusjon av datasett, men som også støtter beskrivelser av datasett i tråd med DCAT-AP.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://entryscape.com/en/products/catalog/">Entryscape Catalog</a>: Svensk programvare (og teneste) som i motsetning til flere av de andre løsningene er basert på DCAT-AP.  Har i tillegg støtte for DCAT-AP-NO.</p>
+</div>
+<div class="paragraph">
+<p>Flere av disse løsningene er komplette plattformer i den betydningen at de også har funksjonalitet for å distribuere datasett. Listen er ikke uttømmende og løsningene er ikke testet av Difi.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hvorfor_orden_i_eget_hus"><a class="anchor" href="#_hvorfor_orden_i_eget_hus"></a>Hvorfor orden i eget hus</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_delekultur_som_gir_gevinster"><a class="anchor" href="#_delekultur_som_gir_gevinster"></a>Delekultur som gir gevinster</h3>
+<div class="paragraph">
+<p><a href="https://www.difi.no/sites/difino/files/20150624_sak_10-15_foranalyse_informasjonsforvaltning_og_utveksling_-_vedlegg_1_sluttrapport_ny_versjon.pdf">Foranalysen</a> som ble gjennomført i regi av Skate, etablerte et målbilde for hele offentlig sektor. Der heter det bl.a.:</p>
+</div>
+<div class="paragraph">
+<p>Data skal skapes én gang og forvaltes i én kilde for så å kunne gjenbrukes. Gjenbruk er hovedregel ved utvikling av nye digitale offentlige tjenester, og dette gjelder gjenbruk av både tjenester, data og beskrivelser.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2569983/">Digitaliseringsrundskrivet </a>sier at en bør bruke felles offentlige registre (Det sentrale folkeregisteret, Enhetsregisteret, Kontakt- og reservasjonsregisteret og Matrikkelen). Dette er nasjonale masterdata som inneholder “fasiten” for data på sitt område. Men det finnes mye informasjon av felles nytte utenfor disse felles offentlige registrene, og hvordan skal en få til en delekultur rundt disse? Og hvilke gevinster vil en slik delekultur skape, både internt i en virksomhet og for samfunnet som helhet?</p>
+</div>
+<div class="paragraph">
+<p>I dag samler flere deler av offentlig sektor inn samme type informasjon, noe som er en dårlig utnyttelse både av offentlig sektors egne, og samfunnets, ressurser. Dersom en har tilstrekkelig “orden i eget hus”, vil oversikter over egen informasjon kunne tilgjengeliggjøres. Dermed vil andre virksomheter se hvilken informasjon som allerede finnes, og vil- dersom de har hjemmel for gjenbruk - kunne redusere kostnader både hos seg selv og hos de som må sende inn informasjonen. Brønnøysundregistrene og Difi har derfor i samarbeid med SKATE-virksomhetene lansert en <a href="https://fellesdatakatalog.brreg.no/">felles datakatalog</a> med oversikt over datasett fra offentlige virksomheter i Norge.</p>
+</div>
+<div class="paragraph">
+<p>Digitale tjenester i én offentlig virksomhet forutsetter ofte informasjon som forvaltes av andre virksomheter. Lånekassen trenger f.eks. informasjon fra bl.a. Skatteetaten, NAV og UDI i sin saksbehandling. “Orden i eget hus” er viktig for å lage gode og sammenhengende tjenester; for å vite hvilken informasjon som finnes hos andre, men også for å vite hva den betyr. ( “Samboer” er f.eks. ikke nødvendigvis det samme i Skatteetaten og NAV. ) “Orden i eget hus” forenkler arbeidet med å identifisere hva som kan utveksles, og gir basis for eventuell koordinering av begrepsbruk. Den som bruker tjenestene, slipper på sin side å slite med ulik begrepsbruk, og henting og videreformidling av informasjon som det offentlige allerede har.</p>
+</div>
+<div class="paragraph">
+<p>Arbeidet med å skape “orden i eget hus” er et stort nasjonalt fellesløft, der eget arbeid vil gi gevinst for andre, og vise versa.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_legitimitet_og_tillit"><a class="anchor" href="#_legitimitet_og_tillit"></a>Legitimitet og tillit</h3>
+<div class="paragraph">
+<p>Riktig datagrunnlag er avgjørende for å trygge likebehandlingen og rettssikkerheten til innbyggerne. Med bedre kvalitet på dataene legger en grunnlaget for å treffe rett avgjørelse. God orden i form av autorative kilder til informasjon vil profesjonalisere forvaltningen av disse kildene, og økt bruk vil føre til bedre kvalitet på dataene.</p>
+</div>
+<div class="paragraph">
+<p>Innbyggerne må få innsyn i beslutningsgrunnlaget i saker som gjelder dem selv. Riktige data i beslutningsprosessene er avgjørende for tilliten til forvaltningen og de beslutningene som fattes (<a href="https://lovdata.no/dokument/NL/lov/1967-02-10">Forvaltningsloven</a>). Økt effektivisering i form av økt automatisering i saksbehandlingen og på sikt bruk av kunstig intelligens bygger på en forutsetning om orden i eget hus.</p>
+</div>
+<div class="paragraph">
+<p>Innsyn i offentlig forvaltning er viktig for demokratiet, for likebehandling og i kampen mot korrupsjon og maktmisbruk. Orden i eget hus legger grunnlaget for transparens fordi vi kan gi tilgang til grunnlaget for beslutninger og prioriteringer. Vi kan gi innsyn i hvordan beslutninger følges opp, samt hva effekten av politiske tiltak er.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bedre_endringsevne_gjennomføring_og_kontroll"><a class="anchor" href="#_bedre_endringsevne_gjennomføring_og_kontroll"></a>Bedre endringsevne, gjennomføring og kontroll</h3>
+<div class="paragraph">
+<p>Gevinsten ved å ha den “orden i eget hus” som delingskulturen forutsetter, vil være at virksomheten internt har oversikt over egen informasjon, forstår hva den betyr og bruker den til å understøtte virksomhetens arbeidsprosesser og oppgaveløsning. I dag er det ikke uvanlig at deler av en virksomhet ikke kjenner til informasjon som forvaltes av en annen del, noe som bidrar til redusert effektivitet i arbeidsprosessene.</p>
+</div>
+<div class="paragraph">
+<p>Generelt vil det være nyttig at en har oversikt over all relevant informasjon i en virksomhet, og ikke bare uttrekk/deler som er tilpasset et nåtidig behov. Ingen vet hvilken informasjon som trengs for å møte morgendagens krav, men dersom all relevant informasjon er kjent, vil det gjøre endringer enklere, dvs. bedre virksomhetens endringsevne.</p>
+</div>
+<div class="paragraph">
+<p>I utviklingsprosjekter defineres og dokumenteres gjerne begreper og informasjonsmodeller.Med god felles forvaltning av dette ut over prosjektets levetid legger en blant annet grunnlaget for smidige utviklingsprosesser gjennom gjenbruk. Begreper og informasjonsmodeller er en felles ressurs som aktivt bør røktes i virksomheten.</p>
+</div>
+<div class="paragraph">
+<p>Orden i eget hus krever økt samspill mellom fag og IT. Når fagsiden tar mer eierskap til data, begrepsbruk og beslutninger gir det økt trygghet og støtte for fagansvarlig. Det fører og til mer effektiv oppgaveløsning og færre henvendelser.</p>
+</div>
+<div class="paragraph">
+<p>Gode styringsdata er avgjørende for å utvikle virksomheten. Det er enklere å optimalisere virksomheten når en har kontroll på relevante masterdata, i tillegg til at det er enklere å rapportere på måloppnåelse.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bedre_digitale_tjenester_til_innbyggere_og_næringsliv"><a class="anchor" href="#_bedre_digitale_tjenester_til_innbyggere_og_næringsliv"></a>Bedre digitale tjenester til innbyggere og næringsliv</h3>
+<div class="paragraph">
+<p>Brukerorienterte digitale tjenester er avhengige av rett utnyttelse av informasjonen som allerede finnes om innbygger og næringsliv. Dette muliggjør pro-aktive tjenester, persontilpassede tjenester og automatiserte tjenester. Det vil si at offentlig sektor ikke skal spørre om noe den allerede vet (kun en gang-prinsippet), en skal ikke søke om noe en har rett til, en skal få umiddelbart svar hvis det ikke kreves skjønn, og det skal være enkelt å vite hva offentlig sektor vet om deg og hvem som har sett denne informasjonen. I tillegg skal tjenester leveres på tvers av sektorer og forvaltningsnivå i såkalte tjenestekjeder.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_innovasjon_og_ny_næringsvekst"><a class="anchor" href="#_innovasjon_og_ny_næringsvekst"></a>Innovasjon og ny næringsvekst</h3>
+<div class="paragraph">
+<p>Innovasjon er en samlebetegnelse for vellykket fornyelse. Når økonomier endrer seg raskt er innovasjon nødvendig for å opprettholde og utvikle vår konkurranseevne og vår velstand.</p>
+</div>
+<div class="paragraph">
+<p>Data ligger til grunn for hvordan vi løser oppgaver nå og fremover. Det har innvirkning på hvordan offentlige oppgaver organiseres og utformes. For å få til den nødvendige endringen må offentlig sektor ha kontroll på egne data som grunnlag for redesign av virksomheten på alle nivå - folk, prosesser, teknologi og styring.<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>Innlåsning til en leverandør kan hemme innovasjon, og gi dårligere kostnadseffektivitet enn virksomheten kan oppnå ved hyppigere konkurranseutsetting. <a href="https://www.fintprosjektet.no/om-fintprosjektet/">FINT-prosjektet</a> (Felles Fylkeskommunale INTegrasjone) leverer en informasjonsmodell og et API for kommunikasjon som kan legges som grunnlag for fremtidige kjøp av nye systemer (krav), forbedring av eksisterende tjenester og utvikling av nye tjenester. Ting gjøres en gang og likt hos alle fylkeskommuner og en unngår innlåsing.</p>
+</div>
+<div class="paragraph">
+<p>Orden i eget hus gjør det enklere å vite hvilke data en kan åpne opp for alle. Åpne data er viktig for samfunnet. Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon.</p>
+</div>
+<div class="paragraph">
+<p>Felles datakatalog tilrettelegger for verdiøkning og tjenesteinnovasjon. Enkle tilgangsformer (programmeringsgrensesnitt – API), åpne standarder og gode metadata gjør det enklere å utvikle innovative løsninger basert på oppdaterte data.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_informasjonssikkerhet_og_personvern"><a class="anchor" href="#_informasjonssikkerhet_og_personvern"></a>Informasjonssikkerhet og personvern</h3>
+<div class="paragraph">
+<p>Flere områder tilknyttet informasjonsbehandling har behov for oversikt over virksomhetens arbeidsoppgaver (prosesser) og hvilke informasjonstyper som behandles i disse. I tillegg til å ha oversikt for å vurdere datadeling og effektivisering, må virksomhetene blant annet ha</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>oversikt over behandling av personopplysninger for å ivareta personvern</p>
+</li>
+<li>
+<p>oversikt over all informasjonsbehandling, inkludert potensielle konsekvenser ved brudd på informasjonssikkerhet <sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup>, for å ivareta informasjonssikkerhet på en god måte</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Det mest effektive er at slik oversikt fremskaffes og vedlikeholdes på en helhetlig måte, som dekker de forskjellige behovene.</p>
+</div>
+<div class="paragraph">
+<p>Uten orden i eget hus og en oversikt over informasjonen man forvalter, kan man ikke gjøre en reell vurdering av risiko. Derfor kan vi si at orden i eget hus styrker både personvernet og arbeidet med informasjonssikkerhet. Ved å ha oversikt over egen informasjon og arbeidsoppgavene den brukes i, er det enklere å vite hva man skal sikre og hvordan.</p>
+</div>
+<div class="paragraph">
+<p>Mange arbeider med å få oversikt over sine personopplysninger i forbindelse med innføringen av personvernforordningen (General Data Protection Regulation). Vi mener at ved å kombinere dette arbeidet med god informasjonsforvaltning generelt, vil man kunne skape et godt grunnlag for det videre arbeidet på ulike områder – og utnytte ressursene sine bedre.</p>
+</div>
+<div class="paragraph">
+<p>Difi har utviklet veilederen <a href="http://internkontroll-infosikkerhet.difi.no/">“Internkontroll i praksis - informasjonssikkerhet”</a>. For å ha tilstrekkelig styring og kontroll på informasjonssikkerhetsområdet, må virksomheten ha oversikt over hvilke arbeidsoppgaver som utføres, og hvilke informasjonstyper som behandles i de ulike oppgavene. Vi mener det er mulig å kombinere foranalysen av ansvarsområder med flagging av data for videre arbeid med datadeling. Difis veiledningsmateriell har hjelpemidler som kan brukes i arbeidet:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://internkontroll-infosikkerhet.difi.no/systematiske-aktiviteter/risikovurdering#Fa_oversikt_prioritere">Beskrivelse av aktiviteten «Få oversikt og prioritere»</a>, som omfatter blant annet foranalysen<br></p>
+</li>
+<li>
+<p><a href="https://internkontroll-infosikkerhet.difi.no/sites/sikkerhet/files/mal_foranalyse_del_1-risikoeiere-arbeidsoppgaver_informasjon_mv-fa_oversikt_og_prioritere_0.docx">Mal til skjema for gjennomføring av foranalysen på et ansvarsområde</a></p>
+</li>
+<li>
+<p><a href="https://internkontroll-infosikkerhet.difi.no/sites/sikkerhet/files/stotte_veiledning_til_foranalyse_del_1-risikoeiere-arbeidsoppgaver_informasjon.pdf">Veiledning til utfylling av malen/støtteskjemaet</a></p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/images/Risikovurdering.png" alt="Risikovurdering">
+</div>
+</div>
+<div class="paragraph">
+<p><em>Figur 3_</em>: Få oversikt og prioritere</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_lovverk"><a class="anchor" href="#_lovverk"></a>Lovverk</h3>
+<div class="paragraph">
+<p>Krav om orden i eget hus følger av regelverk om internkontroll, informasjonssikkerhet, personvern og arkiv, hvor oversikt over egen informasjon er grunnleggende.<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup></p>
+</div>
+<div class="sect3">
+<h4 id="_offentleglova"><a class="anchor" href="#_offentleglova"></a>Offentleglova</h4>
+<div class="paragraph">
+<p>Retten til innsyn i offentlig informasjon er regulert i Offentleglova. Det er samme rett til tilgang til data som til dokumenter, og i 2017 ble det lagt til krav om å utlevere data på maskinlesbart format.</p>
+</div>
+<div class="paragraph">
+<p>Da Offentleglova ble vedtatt i 1970 ble det sett på som lite tilfredsstillende å gi folk en rettighet uten også å gi en oversikt over det man kunne be om innsyn i. Derfor fikk vi offentlig postjournal. Idag er det klart at det kun er en brøkdel av forvaltningens informasjon som er opplistet i offentlig postjournal. I forlengelsen av dette kan vi si at en oversikt over virksomhetens data en nødvendig forutsetning for at befolkningen skal kunne nyttiggjøre seg den retten de har gjennom Offentleglova.<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>I samsvar med viderebruksbestemmelsene i Offentleglova skal virksomheten gjøre egnet informasjon tilgjengelig i maskinlesbare formater, fortrinnsvis gjennom API&#8217;er og “virksomheter som etablerer nye eller oppgraderer eksisterende fagsystemer eller digitale tjenester, skal legge til rette for at data fra disse tjenestene kan gjøres tilgjengelige i maskinlesbare formater.”</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_forvaltningsloven_og_eforvaltningsforskriften"><a class="anchor" href="#_forvaltningsloven_og_eforvaltningsforskriften"></a>Forvaltningsloven og eForvaltningsforskriften</h4>
+<div class="paragraph">
+<p>Forvaltningsloven regulerer saksbehandlingen i offentlig forvaltning. Gitt kravet om taushetsplikt og innsynsrett i saksbehandlingen er det avgjørende å ha kontroll på informasjonsflyten i saksbehandlingen.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://lovdata.no/dokument/SF/forskrift/2004-06-25-988">Forskrift om elektronisk kommunikasjon med og i forvaltningen</a>, kalt eForvaltningsforskriften, har som formål å legge til rette for sikker og effektiv bruk av elektronisk kommunikasjon med og i forvaltningen. Vesentlig i vår sammenheng er kravet til styring og kontroll på informasjonssikkerhetsområdet (§15).</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_anbefalte_og_obligatoriske_standarder"><a class="anchor" href="#_anbefalte_og_obligatoriske_standarder"></a>Anbefalte og obligatoriske standarder</h4>
+<div class="paragraph">
+<p>Ved å standardisere utøves et virkemiddel for styring av hvordan vi i felleskap i offentlig sektor arbeider og tilrettelegger for deling og bruk av data. Det finnes flere anbefalte og obligatoriske standarder som bør eller skal tas i bruk av alle forvaltningsorganer. Standarder som vi peker på i denne veilederen er også henvist til fra <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen">Referansekatalogen</a> som er en oversikt over alle obligatoriske og anbefalte standarder. Vi har laget en samleside med <a href="https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/nasjonal-arkitektur/informasjonsforvaltning/standarder-informasjonsforvaltning">relevante standarder for informasjonsforvaltning</a>.</p>
 </div>
 <!-- Google Analytics -->
 <script>
@@ -521,9 +1426,45 @@ ga('send', 'pageview');
 </div>
 </div>
 </div>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. Brreg: <a href="https://www.brreg.no/hvordan-kan-vi-hjelpe-deg/" class="bare">https://www.brreg.no/hvordan-kan-vi-hjelpe-deg/</a> Difi: <a href="mailto:informasjonsforvaltning@difi.no">informasjonsforvaltning@difi.no</a>
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. Registreringsløsning for Felles datakatalog: <a href="https://registrering-fdk.ppe.brreg.no/loggin" class="bare">https://registrering-fdk.ppe.brreg.no/loggin</a>  Publiseringsløsning for Felles datakatalog: <a href="https://fellesdatakatalog.brreg.no/" class="bare">https://fellesdatakatalog.brreg.no/</a>
+</div>
+<div class="footnote" id="_footnotedef_3">
+<a href="#_footnoteref_3">3</a>. ”Termlosen – kort innføring i begrepsanalyse og terminologiarbeid” fås gratis ved henvendelse til til Språkrådet: <a href="http://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/" class="bare">http://www.sprakradet.no/Vi-og-vart/Publikasjoner/Termlosen/</a>. Termene i Termlosen er igjen basert på den nordiske terminologisammenslutningen Nordterms arbeid.
+</div>
+<div class="footnote" id="_footnotedef_4">
+<a href="#_footnoteref_4">4</a>. I dette eksempelet er ikke revisjonsprosess tatt med.
+</div>
+<div class="footnote" id="_footnotedef_5">
+<a href="#_footnoteref_5">5</a>. Det kan være nyttig å vurdere avdelingskoordinatorer som bistår i den enkelte avdeling, og som således er begrepskoordinatorens “utstrakte arm” i organisasjonen.
+</div>
+<div class="footnote" id="_footnotedef_6">
+<a href="#_footnoteref_6">6</a>. I prosessen kan man benytte statuser for å indikere hvor ferdig begrepsbeskrivelsene er. Eksempel: Utkast, Kandidat for godkjenning, Godkjent.Med statuser kan man også angi at en begrepsbeskrivelse er under revisjon.
+</div>
+<div class="footnote" id="_footnotedef_7">
+<a href="#_footnoteref_7">7</a>. Mer om digital transformasjon på Difs sider: <a href="https://www.difi.no/fagomrader-og-tjenester/digitalt-forstevalg/hva-er-digitalt-forstevalg/digital-transformasjon" class="bare">https://www.difi.no/fagomrader-og-tjenester/digitalt-forstevalg/hva-er-digitalt-forstevalg/digital-transformasjon</a>
+</div>
+<div class="footnote" id="_footnotedef_8">
+<a href="#_footnoteref_8">8</a>. Ofte kalt «verdivurdering»
+</div>
+<div class="footnote" id="_footnotedef_9">
+<a href="#_footnoteref_9">9</a>. Meld.St. 27 Digital agenda for Norge s. 49
+</div>
+<div class="footnote" id="_footnotedef_10">
+<a href="#_footnoteref_10">10</a>. Då Stortinget vedtok offentleglova i 1970 trossa dei anbefalinga frå regjeringa og slo fast at ein rett til innsyn i saksbehandlinga i forvaltinga ikkje kunne fungere utan at ein samstundes fekk tilgang til ein postjournal som viste kva ein kunne be om innsyn i: «Det synes prinsipielt lite tilfredsstillende å innføre et offentlighetsprinsipp, uten samtidig å gi dem som har rettigheter etter dette, rimelige muligheter til å kunne benytte sin rett til å gjøre seg kjent med forvaltningens saker.» Innst. O. XIV (1969-70) s. 11, sitert etter NOU 2003:30 «Ny offentlighetslov», kap. 8.4.5. Sjå: <a href="http://www.regjeringen.no/nb/dep/jd/dok/nouer/2003/nou2003-30/9.html?id=382963" class="bare">http://www.regjeringen.no/nb/dep/jd/dok/nouer/2003/nou2003-30/9.html?id=382963</a>
+</div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2020-06-18 12:52:24 UTC
+Versjon 2.0<br>
+Sist oppdatert 2020-06-18 13:07:44 UTC
 </div>
 </div>
 </body>
