@@ -35,7 +35,7 @@ API-ene må beskrives med en rekke forhold, bl.a. under hvilke tekniske standard
 . Felles informasjonsmodeller for sentrale entiteter (f.eks. person, adresse, organisasjon) er etablert og tilgjengeliggjort som gjenbrukbare, standardiserte modeller og tjenestemodeller som gjelder utveksling av grunndata er etablert og tilgjengeliggjort og baseres på felles informasjonsmodeller.
 . En felles lavterskel løsning for å tilgjengeliggjøre kodeverk er vurdert
 
-WARNING: Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrivelse av API-er er pågående. Kontakt informasjonsforvaltning@difi.no for mer informasjon.
+WARNING: Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrivelse av API-er er pågående. Kontakt informasjonsforvaltning@digdir.no for mer informasjon.
 
 ==== Informasjonsmodeller
 
@@ -45,4 +45,4 @@ Det er derfor et behov for felles forståelse og lik representasjon av grunnlegg
 
 For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.
 
-WARNING: Referanse til informasjonsmodeller er ikke løst i gjeldende versjon av DCAT-AP eller i Felles datakatalog. Det er i dag anbefalt å legge inn referanse til datamodeller i feltet https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[Datasett: i samsvar med] i DCAT-AP-NO. Kontakt informasjonsforvaltning@difi.no for mer informasjon.
+WARNING: Referanse til informasjonsmodeller er ikke løst i gjeldende versjon av DCAT-AP eller i Felles datakatalog. Det er i dag anbefalt å legge inn referanse til datamodeller i feltet https://doc.difi.no/dcat-ap-no/#datasett-i-samsvar-med[Datasett: i samsvar med] i DCAT-AP-NO. Kontakt informasjonsforvaltning@digdir.no for mer informasjon.
