@@ -5,7 +5,7 @@ En vanlig utfordring er at begrepsarbeid ofte starter i forbindelse med større 
 
 Begrepenes livssyklus bør defineres gjennom en prosess, se eksempel under. Prosessen bør også ta høyde for endringer og revisjoner (nye versjoner etter godkjenning)footnote:[I dette eksempelet er ikke revisjonsprosess tatt med.].
 
-image::images/Prosess_begrep_Brreg.png[]
+image::Prosess_begrep_Brreg.jpg[]
 _Figur 2__:Prosess i begrepsarbeid
 
 
