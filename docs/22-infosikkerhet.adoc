@@ -19,6 +19,6 @@ Difi har utviklet veilederen http://internkontroll-infosikkerhet.difi.no/[“Int
 
 *  	https://internkontroll-infosikkerhet.difi.no/sites/sikkerhet/files/stotte_veiledning_til_foranalyse_del_1-risikoeiere-arbeidsoppgaver_informasjon.pdf[Veiledning til utfylling av malen/støtteskjemaet]
 
-image::images/Risikovurdering.png[]
+image::Risikovurdering.jpg[]
 
 _Figur 3__: Få oversikt og prioritere

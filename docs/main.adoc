@@ -1,3 +1,4 @@
+include::locale/attributes.adoc[]
 = Veileder for orden i eget hus
 Digitaliseringsdirektoratet
 v2.0, 06.07.2018
@@ -14,8 +15,6 @@ v2.0, 06.07.2018
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
 Publisert: 2018-06-07
-
-include::locale/attributes.adoc[]
 
 include::shared/download.adoc[]
 
