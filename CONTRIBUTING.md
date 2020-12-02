@@ -10,7 +10,7 @@ For at det følgende skal virke på din maskin, må du ha programvare installert
  Dersom du bruker Atom kan du gjøre som følger:  
   - Trykk `Ctrl+Shift+P`
   - Skriv `GitHub: Clone` og trykk Enter
-  - I Clone from legger du inn følgende url `https://github.com/Informasjonsforvaltning/specification-template.git`
+  - I Clone from legger du inn følgende url `https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus.git`
 
 Alternativt i kommando-linje:
 ```
