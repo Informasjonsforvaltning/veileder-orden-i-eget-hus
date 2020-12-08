@@ -18,6 +18,6 @@ Merk at det også finnes egne og supplerende, detaljerte veiledere, som bør see
 
 * Hvordan beskrive datasett i henhold til felles standard, DCAT-AP-NO: https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/]
 * Tilgjengeliggjøring av offentlig data:
-https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data[https://data.norge.no/document/del-og-skap-verdier-veileder-i-tilgjengeliggj%C3%B8ring-av-offentlige-data]
+https://data.norge.no/guide/veileder-apne-data/[https://data.norge.no/guide/veileder-apne-data/]
 
 * Internkontrollveilederen: https://internkontroll-infosikkerhet.difi.no/[https://internkontroll-infosikkerhet.difi.no/]
