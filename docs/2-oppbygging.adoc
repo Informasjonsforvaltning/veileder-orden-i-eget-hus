@@ -1,7 +1,7 @@
 
 === Oppbygging av veilederen
 
-I Digitaliseringsdirektoratets rapport https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] defineres informasjonsforvaltning slik:
+I Difis (nå Digitaliseringsdirektoratet) rapport https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] defineres informasjonsforvaltning slik:
 
 “Informasjonsforvaltning betyr eit heilskapleg syn på aktivitetar, verktøy og andre tiltak for å sikre best mogleg kvalitet, utnytting og sikring av informasjon i ei verksemd. Organiseringa av informasjonen skal vere systematisk og henge saman med verksemda sine arbeidsprosessar”.
 
@@ -16,7 +16,7 @@ Veilederen skal *primært støtte arbeid som er nødvendig for å få til deling
 
 Merk at det også finnes egne og supplerende, detaljerte veiledere, som bør sees i sammenheng med denne veiledningen, blant annet:
 
-* Hvordan beskrive datasett i henhold til felles standard, DCAT-AP-NO: https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/[https://doc.difi.no/data/veileder-for-beskrivelse-av-datasett/]
+* Hvordan beskrive datasett i henhold til felles standard, DCAT-AP-NO: https://data.norge.no/guide/veileder-beskrivelse-av-datasett/[https://data.norge.no/guide/veileder-beskrivelse-av-datasett/]
 * Tilgjengeliggjøring av offentlig data:
 https://data.norge.no/guide/veileder-apne-data/[https://data.norge.no/guide/veileder-apne-data/]
 
