@@ -3,7 +3,7 @@
 
 Med orden i eget hus mener vi at “den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem (informasjonsforvaltning). Dette innebærer også å ta stilling til hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor, og viderebruk av privat sektor. Offentlige virksomheter må prioritere utveksling av informasjon som andre virksomheter har krav på" https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2683652/[(Digitaliseringsrundskrivet)].
 
-For at offentlig sektor skal kunne dele med, og bruke data fra hverandre, er det viktig at de enkelte virksomheter starter med å ha oversikt over egne data, noe som er et prinsipp for god informasjonsforvaltning. Rapporten https://www.difi.no/sites/difino/files/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] konkretiserer stegvis måloppnåelse i 5 punkter med økende ambisjonsnivå:
+For at offentlig sektor skal kunne dele med, og bruke data fra hverandre, er det viktig at de enkelte virksomheter starter med å ha oversikt over egne data, noe som er et prinsipp for god informasjonsforvaltning. Rapporten https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] konkretiserer stegvis måloppnåelse i 5 punkter med økende ambisjonsnivå:
 
 1. Datasettene i virksomheten er beskrevet i en oversikt +
 2. Oversikten fra punkt 1 er publisert  +
