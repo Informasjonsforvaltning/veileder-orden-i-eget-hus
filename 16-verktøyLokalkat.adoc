@@ -1,7 +1,7 @@
 
-=== Lokal datakatalog
+=== Virksomhetsintern datakatalog
 
-Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en lokal datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe for å støtte norske tillegg. Felles datakatalog, som utvikles og forvaltes av Brønnøysundregistrene, er en lavterskel løsning som støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på https://github.com/Altinn/fdk/blob/master/README.md[GitHub], og Difi anbefaler å implementere denne løsningen lokalt.
+Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en virksomhetsintern datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe. Felles datakatalog, som utvikles og forvaltes av Digitaliseringsdirektoratet, er en lavterskel løsning som støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på https://github.com/Altinn/fdk/blob/master/README.md[GitHub].
 
 Ved mer komplekse behov finnes andre løsninger som kan benyttes til en lokal datakatalog, f.eks:
 
@@ -13,4 +13,4 @@ http://thedatatank.com/[The datatank:]  En løsning med fokus på distribusjon a
 
 https://entryscape.com/en/products/catalog/[Entryscape Catalog]: Svensk programvare (og teneste) som i motsetning til flere av de andre løsningene er basert på DCAT-AP.  Har i tillegg støtte for DCAT-AP-NO.
 
-Flere av disse løsningene er komplette plattformer i den betydningen at de også har funksjonalitet for å distribuere datasett. Listen er ikke uttømmende og løsningene er ikke testet av Difi.
+Flere av disse løsningene er komplette plattformer i den betydningen at de også har funksjonalitet for å distribuere datasett. Listen er ikke uttømmende og løsningene er ikke testet av Digitaliseringsdirektoratet.
