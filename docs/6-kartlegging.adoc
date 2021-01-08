@@ -24,7 +24,6 @@ Eksempler på avgrensing av et datasett:
 * I Matrikkelen er datasettene Eiendom, Adresse, Bygning. Datasettene distribueres i henhold til ulike applikasjonsskjema (informasjonsmodeller) og på ulike formater.
 * Aa-registeret inneholder datasettet Arbeidsforhold - kilde: A-ordningen, relasjon til Enhetsregisteret og DSF.
 * Det sentrale folkeregisteret (DSF) inneholder Innbyggere, andre personer med tilknytning til riket, bosted, samemantall osv.
-* Uføre (vedtak om uførestatus) fra NAV er en avgrensning av populasjonen og dermed et datasett.
 * Lovlig opphold fra UDI er et datasett
 * Vernepliktige er etter lov om verneplikt en del av Forsvarets verneplikts- og tjenesteregister.
 
