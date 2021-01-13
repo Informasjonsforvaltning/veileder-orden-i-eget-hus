@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="generator" content="Asciidoctor 2.0.12">
 <meta name="description" content="Veileder for orden i eget hus">
 <meta name="author" content="Digitaliseringsdirektoratet">
 <title>Veileder for orden i eget hus</title>
@@ -49,7 +49,7 @@ textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 *,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 a:hover{cursor:pointer}
 img,object,embed{max-width:100%;height:auto}
 object,embed{height:100%}
@@ -64,10 +64,8 @@ img{-ms-interpolation-mode:bicubic}
 img,object,svg{display:inline-block;vertical-align:middle}
 textarea{height:auto;min-height:50px}
 select{width:100%}
-.center{margin-left:auto;margin-right:auto}
-.stretch{width:100%}
 .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
 a{color:#2156a5;text-decoration:underline;line-height:inherit}
 a:hover,a:focus{color:#1d4b8f}
 a img{border:0}
@@ -107,19 +105,22 @@ h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt{background:#f8f8f7}
-table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
 h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
 .clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
 .clearfix::after,.float-group::after{clear:both}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
-:not(pre)>code.nobreak{word-wrap:normal}
-:not(pre)>code.nowrap{white-space:nowrap}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
@@ -184,7 +185,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
 #content #toc>:first-child{margin-top:0}
 #content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
 #footer-text{color:rgba(255,255,255,.8);line-height:1.44}
 #content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
@@ -207,7 +208,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .admonitionblock>table td.icon{text-align:center;width:80px}
 .admonitionblock>table td.icon img{max-width:none}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
-.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
 .exampleblock>.content>:first-child{margin-top:0}
@@ -217,7 +218,7 @@ table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font
 .sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
 .exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
@@ -263,21 +264,20 @@ pre.pygments .lineno::before{content:"";margin-right:-.125em}
 .quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
 .quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
 .quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
-table.tableblock{max-width:100%;border-collapse:separate}
 p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
 td.tableblock>.content>:last-child{margin-bottom:-1.25em}
-td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
 table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
-table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
-table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
-table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
-table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
-table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
-table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
 table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
 table.frame-sides{border-width:0 1px}
-table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
 table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
 th.halign-left,td.halign-left{text-align:left}
 th.halign-right,td.halign-right{text-align:right}
@@ -286,7 +286,7 @@ th.valign-top,td.valign-top{vertical-align:top}
 th.valign-bottom,td.valign-bottom{vertical-align:bottom}
 th.valign-middle,td.valign-middle{vertical-align:middle}
 table thead th,table tfoot th{font-weight:bold}
-tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th{background:#f7f8f7}
 tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
 p.tableblock>code:only-child{background:none;padding:0}
 p.tableblock{font-size:1em}
@@ -315,6 +315,7 @@ ol.lowergreek{list-style-type:lower-greek}
 .hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
 td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
 td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
 .literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
 .colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
 .colist td:not([class]):first-child img{max-width:none}
@@ -387,7 +388,7 @@ a span.icon>.fa{cursor:inherit}
 .admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
 .admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
 .admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:50%;border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
 .conum[data-value] *{color:#fff!important}
 .conum[data-value]+b{display:none}
 .conum[data-value]::after{content:attr(data-value)}
@@ -414,6 +415,7 @@ thead{display:table-header-group}
 svg{max-width:100%}
 p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
 h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
 #toc,.sidebarblock,.exampleblock>.content{background:none!important}
 #toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
 body.book #header{text-align:center}
@@ -453,76 +455,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_innledning">Innledning</a>
 <ul class="sectlevel2">
 <li><a href="#_målgruppe">Målgruppe</a></li>
-<li><a href="#_oppbygging_av_veilederen">Oppbygging av veilederen</a></li>
-<li><a href="#_hva_mener_vi_med_orden_i_eget_hus">Hva mener vi med “orden i eget hus”?</a></li>
-</ul>
-</li>
-<li><a href="#_sikre_mandat_forankring_og_eierskap">Sikre mandat, forankring og eierskap</a></li>
-<li><a href="#_hvordan_skape_orden_i_eget_hus">Hvordan skape orden i eget hus?</a>
-<ul class="sectlevel2">
-<li><a href="#_modenhetsmåling">Modenhetsmåling</a></li>
-<li><a href="#_kartlegging">Kartlegging</a>
+<li><a href="#_modenhetsmåling">Modenhetsmåling</a>
 <ul class="sectlevel3">
 <li><a href="#_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives">Hva er et datasett og hvilke datasett skal beskrives?</a></li>
 <li><a href="#_hvor_starter_jeg">Hvor starter jeg?</a></li>
 <li><a href="#_hva_er_forskjellen_mellom_oversikt_og_beskrivelse">Hva er forskjellen mellom oversikt og beskrivelse?</a></li>
-</ul>
-</li>
-<li><a href="#_prioritering">Prioritering</a></li>
-<li><a href="#_vurdering_av_tilgangsnivå">Vurdering av tilgangsnivå</a>
-<ul class="sectlevel3">
 <li><a href="#_offentlig_grønn">Offentlig (grønn)</a></li>
 <li><a href="#_begrenset_offentlighet_gul">Begrenset offentlighet (gul)</a></li>
 <li><a href="#_unntatt_offentlighet_rød">Unntatt offentlighet (rød)</a></li>
-</ul>
-</li>
-<li><a href="#_beskrive_data">Beskrive data</a>
-<ul class="sectlevel3">
 <li><a href="#_standard_for_beskrivelse_av_datasett_dcat_ap_no">Standard for beskrivelse av datasett - DCAT-AP-NO</a></li>
 <li><a href="#_standarder_for_begrepsarbeid">Standarder for begrepsarbeid</a></li>
 <li><a href="#_vurdering_og_beskrivelse_av_kvalitet_på_datasett">Vurdering og beskrivelse av kvalitet på datasett</a></li>
 <li><a href="#_api_katalog_en_oversikt_over_grensesnitt_til_data">API-katalog - en oversikt over grensesnitt til data</a></li>
 <li><a href="#_informasjonsmodeller">Informasjonsmodeller</a></li>
-</ul>
-</li>
-<li><a href="#_tilgjengeliggjøre_beskrivelsene">Tilgjengeliggjøre beskrivelsene</a>
-<ul class="sectlevel3">
 <li><a href="#_datakatalog_en_oversikt_over_datasett">Datakatalog - en oversikt over datasett</a></li>
-</ul>
-</li>
-<li><a href="#_synliggjøring_og_brukerdialog">Synliggjøring og brukerdialog</a></li>
-</ul>
-</li>
-<li><a href="#_styring_og_forvaltning">Styring og forvaltning</a>
-<ul class="sectlevel2">
-<li><a href="#_overordnet_organisering_roller_og_prosesser">Overordnet organisering, roller og prosesser</a>
-<ul class="sectlevel3">
 <li><a href="#_styringsmodeller">Styringsmodeller</a></li>
-</ul>
-</li>
-<li><a href="#_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid">Organisering, roller og arbeidsprosesser i begrepsarbeid</a>
-<ul class="sectlevel3">
 <li><a href="#_roller_i_begrepsarbeidet">Roller i begrepsarbeidet</a></li>
 <li><a href="#_andre_roller_som_kan_inngå_i_begrepsarbeidet">Andre roller som kan inngå i begrepsarbeidet</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#_valg_av_verktøy">Valg av verktøy</a>
-<ul class="sectlevel2">
 <li><a href="#_begrepskatalog">Begrepskatalog</a></li>
-<li><a href="#_virksomhetsintern_datakatalog">Virksomhetsintern datakatalog</a></li>
-</ul>
-</li>
-<li><a href="#_hvorfor_orden_i_eget_hus">Hvorfor orden i eget hus</a>
-<ul class="sectlevel2">
-<li><a href="#_delekultur_som_gir_gevinster">Delekultur som gir gevinster</a></li>
-<li><a href="#_legitimitet_og_tillit">Legitimitet og tillit</a></li>
-<li><a href="#_bedre_endringsevne_gjennomføring_og_kontroll">Bedre endringsevne, gjennomføring og kontroll</a></li>
-<li><a href="#_bedre_digitale_tjenester_til_innbyggere_og_næringsliv">Bedre digitale tjenester til innbyggere og næringsliv</a></li>
-<li><a href="#_innovasjon_og_ny_næringsvekst">Innovasjon og ny næringsvekst</a></li>
-<li><a href="#_informasjonssikkerhet_og_personvern">Informasjonssikkerhet og personvern</a></li>
-<li><a href="#_lovverk">Lovverk</a>
+<li><a href="#_delekultur_som_gir_gevinster">Delekultur som gir gevinster</a>
 <ul class="sectlevel3">
 <li><a href="#_offentleglova">Offentleglova</a></li>
 <li><a href="#_forvaltningsloven_og_eforvaltningsforskriften">Forvaltningsloven og eForvaltningsforskriften</a></li>
@@ -569,11 +522,9 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p>Veilederen henvender seg til de som i den enkelte virksomhet har ansvar for og myndighet til å etablere, styre og forvalte arbeidet med “orden i eget hus”. Dette er i mange tilfeller linjen/ledelsen, men vil også være ansatte som skal følge opp det konkrete arbeidet internt.</p>
 </div>
 <div class="paragraph">
-<p>Behovet for “orden i eget hus” gjelder hele offentlig sektor. Det betyr at målgruppen for denne veilederen både er statlige, fylkeskommunale og kommunale virksomheter av ulik størrelse og med ulik erfaring innenfor informasjonsforvaltning.</p>
+<p>Behovet for “orden i eget hus” gjelder hele offentlig sektor. Det betyr at målgruppen for denne veilederen både er statlige, fylkeskommunale og kommunale virksomheter av ulik størrelse og med ulik erfaring innenfor informasjonsforvaltning.
+=== Oppbygging av veilederen</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_oppbygging_av_veilederen"><a class="anchor" href="#_oppbygging_av_veilederen"></a>Oppbygging av veilederen</h3>
 <div class="paragraph">
 <p>I Difis (nå Digitaliseringsdirektoratet) rapport <a href="https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf">"Informasjonsforvaltning i offentlig sektor"</a> defineres informasjonsforvaltning slik:</p>
 </div>
@@ -583,10 +534,10 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <div class="ulist">
 <ul>
 <li>
-<p>Veilederen tar utgangspunkt i “eit heilskapelig syn på aktiviteter” under kapittelet <a href="#_styring_og_forvaltning">Styring og forvaltning</a>.</p>
+<p>Veilederen tar utgangspunkt i “eit heilskapelig syn på aktiviteter” under kapittelet <a href="#Styring og forvaltning">[Styring og forvaltning]</a>.</p>
 </li>
 <li>
-<p>Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <a href="#_hvordan_skape_orden_i_eget_hus">Hvordan skape orden i eget hus?</a></p>
+<p>Videre behandles temaene “kvalitet, utnytting og sikring” i kapittelet om <a href="#Hvordan skape orden i eget hus?">[Hvordan skape orden i eget hus?]</a></p>
 </li>
 </ul>
 </div>
@@ -612,13 +563,11 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <a href="https://data.norge.no/guide/veileder-apne-data/">https://data.norge.no/guide/veileder-apne-data/</a></p>
 </li>
 <li>
-<p>Internkontrollveilederen: <a href="https://internkontroll-infosikkerhet.difi.no/">https://internkontroll-infosikkerhet.difi.no/</a></p>
+<p>Internkontrollveilederen: <a href="https://internkontroll-infosikkerhet.difi.no/">https://internkontroll-infosikkerhet.difi.no/</a>
+=== Hva mener vi med “orden i eget hus”?</p>
 </li>
 </ul>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_hva_mener_vi_med_orden_i_eget_hus"><a class="anchor" href="#_hva_mener_vi_med_orden_i_eget_hus"></a>Hva mener vi med “orden i eget hus”?</h3>
 <div class="paragraph">
 <p>Med orden i eget hus mener vi at “den enkelte virksomhet skal ha oversikt over hvilke data den håndterer, hva dataene betyr, hva de brukes til, hvilke prosesser de inngår i, og hvem som kan bruke dem (informasjonsforvaltning). Dette innebærer også å ta stilling til hvilke data som kan gjøres tilgjengelig for gjenbruk i offentlig sektor, og viderebruk av privat sektor. Offentlige virksomheter må prioritere utveksling av informasjon som andre virksomheter har krav på <a href="https://www.regjeringen.no/no/dokumenter/digitaliseringsrundskrivet/id2683652/">(Digitaliseringsrundskrivet)</a>.</p>
 </div>
@@ -648,14 +597,9 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p>Målet er at det skal finnes gode nok metadata om datasett til at det automatisk kan prosesseres, deles og raskere kan vurderes og tas i bruk. Derfor er strukturerte beskrivelser vektlagt i dette arbeidet. For at beskrivelsene skal forstås på tvers, må vi standardisere hva vi beskriver og hvordan vi beskriver det.</p>
 </div>
 <div class="paragraph">
-<p>Nåværende utvalg av metadatafelter, som vi heretter velger å kalle beskrivelser, er definert i <a href="https://doc.difi.no/dcat-ap-no/">standarden DCAT-AP-NO</a>. Vesentlig er: ansvarlig for datasettet, kvalitetsvurderinger, hvor ofte de oppdateres, begreper som forklarer innholdet, hvilke hjemler de er tilknyttet, og hvor man kan få tak i dem. I tillegg til at datasettene er beskrevet, skal det være mulig å finne en oversikt over disse beskrivelsene, og en skal ha vurdert hvem som skal ha tilgang til ulike typer data.</p>
+<p>Nåværende utvalg av metadatafelter, som vi heretter velger å kalle beskrivelser, er definert i <a href="https://doc.difi.no/dcat-ap-no/">standarden DCAT-AP-NO</a>. Vesentlig er: ansvarlig for datasettet, kvalitetsvurderinger, hvor ofte de oppdateres, begreper som forklarer innholdet, hvilke hjemler de er tilknyttet, og hvor man kan få tak i dem. I tillegg til at datasettene er beskrevet, skal det være mulig å finne en oversikt over disse beskrivelsene, og en skal ha vurdert hvem som skal ha tilgang til ulike typer data.
+== Sikre mandat, forankring og eierskap</p>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_sikre_mandat_forankring_og_eierskap"><a class="anchor" href="#_sikre_mandat_forankring_og_eierskap"></a>Sikre mandat, forankring og eierskap</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>Å sikre forankring kan være krevende. Start med å skape forståelse i egen organisasjon for behovet for å få orden i eget hus.</p>
 </div>
@@ -678,24 +622,19 @@ Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangl
 <p>Delta på kurs og arrangementer som gir mer informasjon om temaet, og som gir muligheter for å delta på faglige nettverk. Eksempler på kurs finnes på <a href="https://www.digdir.no/arrangement/arrangementsoversikt/692?field_end_date_value=1&amp;field_global_taxonomy_target_id=All">Digitaliseringsdirektoratet sin arrangementsoversikt</a>. Digitaliseringsdirektoratet arrangerer også møter i <a href="https://www.digdir.no/informasjonsforvaltning/faglig-arena-informasjonsforvaltning/2120">faglig arena for informasjonsforvaltning</a> som det kan være nyttig å delta på for å få innspill til eget arbeid i orden i eget hus.</p>
 </div>
 <div class="paragraph">
-<p>Ta gjerne kontakt med Digitaliseringsdirektoratet <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> hvis du ønsker noen utenfra til å fortelle om orden i eget hus og datadeling som et nasjonalt løft.</p>
+<p>Ta gjerne kontakt med Digitaliseringsdirektoratet <sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup> hvis du ønsker noen utenfra til å fortelle om orden i eget hus og datadeling som et nasjonalt løft.
+== Hvordan skape orden i eget hus?</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_hvordan_skape_orden_i_eget_hus"><a class="anchor" href="#_hvordan_skape_orden_i_eget_hus"></a>Hvordan skape orden i eget hus?</h2>
-<div class="sectionbody">
 <div class="sect2">
 <h3 id="_modenhetsmåling"><a class="anchor" href="#_modenhetsmåling"></a>Modenhetsmåling</h3>
 <div class="paragraph">
 <p>Vi har utviklet en <a href="https://www.digdir.no/digitale-felleslosninger/modenhetsmodell-orden-i-eget-hus/2124">modenhetsmodell</a> for at virksomhetene skal kunne vurdere hvor langt de er kommet i arbeidet med orden i eget hus. Også for denne modellen er datadeling målet, og orden i eget hus middelet. Modellen inkluderer flere av punktene fra <a href="https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf">Difi-rapporten</a>, både punkt 1 “Datasettene i virksomheten er beskrevet i en oversikt”, 2 “Oversikten fra punkt 1 er publisert” og 4 “Dataelementene er beskrevet” inngår i aksene i modellen.</p>
 </div>
 <div class="paragraph">
-<p>Modenhetsmodellen er verktøyet virksomhetene skal bruke for å vurdere orden i eget hus, og veilederen skal gi hjelp til å øke egen modenhet langs de ulike aksene.</p>
+<p>Modenhetsmodellen er verktøyet virksomhetene skal bruke for å vurdere orden i eget hus, og veilederen skal gi hjelp til å øke egen modenhet langs de ulike aksene.
+=== Kartlegging</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_kartlegging"><a class="anchor" href="#_kartlegging"></a>Kartlegging</h3>
 <div class="sect3">
 <h4 id="_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives"><a class="anchor" href="#_hva_er_et_datasett_og_hvilke_datasett_skal_beskrives"></a>Hva er et datasett og hvilke datasett skal beskrives?</h4>
 <div class="paragraph">
@@ -761,12 +700,9 @@ Begynn gjerne med arkivmedarbeidere, seksjonssjefer, avdelingsdirektører eller 
 <p>I modenhetsmodellen skiller en mellom oversikt over datasett og beskrivelse av datasett. Men hva er forskjellen på disse? Det er kanskje lettest å se forskjellen ved å se på hensikten med oversikten og beskrivelsen. Hensikten med oversikten er at potensielle brukere (også interne) skal kunne sjekke om det finnes datasett som kan være aktuelle for en bestemt oppgave, mens beskrivelsen, som gir mer detaljert og utfyllende informasjon om datasettet, skal hjelpe brukeren å avgjøre om datasettet virkelig er aktuelt for oppgaven. En kan si at oversikten brukes til å identifisere/oppdage relevante kandidat-datasett, mens beskrivelsen skal hjelpe en til å vurdere/evaluere om informasjonen i datasettene er relevant for den aktuelle oppgaven.</p>
 </div>
 <div class="paragraph">
-<p>Eksempel på brukerhistorie: Jeg er på jakt etter et datasett som sier noe om inntekt for samboere med barn. Jeg søker gjennom felles datakatalog, og ser at både Etat A og Etat B har datasett som ut fra den kortfattede informasjonen (f.eks. tittel) kan være aktuelle. For å vurdere om datasettene virkelig inneholder det jeg ser etter, trenger jeg imidlertid en mer detaljert beskrivelse av informasjonen. I beskrivelsen finner jeg bl.a. definisjoner av begrepene som brukes i datasettet, og ser at Etat B definerer samboer på en annen måte enn en gjør innenfor mitt fagområde. Dette datasettet er derfor ikke aktuelt for min bruk, men Etat A viser seg å ha samme definisjon både på samboer og inntekt som det jeg bruker i mine analyser.</p>
+<p>Eksempel på brukerhistorie: Jeg er på jakt etter et datasett som sier noe om inntekt for samboere med barn. Jeg søker gjennom felles datakatalog, og ser at både Etat A og Etat B har datasett som ut fra den kortfattede informasjonen (f.eks. tittel) kan være aktuelle. For å vurdere om datasettene virkelig inneholder det jeg ser etter, trenger jeg imidlertid en mer detaljert beskrivelse av informasjonen. I beskrivelsen finner jeg bl.a. definisjoner av begrepene som brukes i datasettet, og ser at Etat B definerer samboer på en annen måte enn en gjør innenfor mitt fagområde. Dette datasettet er derfor ikke aktuelt for min bruk, men Etat A viser seg å ha samme definisjon både på samboer og inntekt som det jeg bruker i mine analyser.
+=== Prioritering</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_prioritering"><a class="anchor" href="#_prioritering"></a>Prioritering</h3>
 <div class="paragraph">
 <p>Å lage oversikt over og beskrive datasett vil ta tid, og det anbefales å starte i det små med datasett som en vet eller tror er etterspurt av andre. Viktige spørsmål å stille er: finnes noen kjente brukerbehov? Vet vi hva som er mest etterspurt? Hva har antatt høyest verdi for brukerne? Finnes noen lavthengende frukter? Kostnader vs. antatt nytteverdi?</p>
 </div>
@@ -779,16 +715,15 @@ Begynn gjerne med arkivmedarbeidere, seksjonssjefer, avdelingsdirektører eller 
 </div>
 </div>
 <div class="paragraph">
-<p>Figur 1: Prioritering av datasett</p>
+<p>Figur 1: Prioritering av datasett
+=== Vurdering av tilgangsnivå</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_vurdering_av_tilgangsnivå"><a class="anchor" href="#_vurdering_av_tilgangsnivå"></a>Vurdering av tilgangsnivå</h3>
 <div class="paragraph">
 <p>En enkel klassifisering av datasett i ulike tilgangsnivå er nyttig både for deg som dataforvalter og for brukerne som skal vurdere om dine datasett er egnet til andre formål. Vi anbefaler <em>trafikklyssystemet<em></em> </em>- et system som deler informasjon i tre tilgangsnivå: <em>offentlig (grønn), begrenset offentlighet (gul)</em> og <em>unntatt offentlighet (rød)</em>. Klassifiseringen gjelder for hele datasett og ikke enkeltvis for opplysningene i et datasett.</p>
 </div>
 <div class="paragraph">
 <p>Det er alltid den mest konfidensielle opplysningen i datasettet som er utgangspunkt for klassifiseringen. Dersom ett av feltene eksempelvis er skjermet informasjon, så skal hele datasettet klassifiseres på grunnlag av dette.</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_offentlig_grønn"><a class="anchor" href="#_offentlig_grønn"></a>Offentlig (grønn)</h4>
@@ -870,12 +805,10 @@ Begynn gjerne med arkivmedarbeidere, seksjonssjefer, avdelingsdirektører eller 
 <p>Formålet med kategorien unntatt offentlighet er å kunne skille ut data som kun kan deles på særskilt rettslig grunnlag.</p>
 </div>
 <div class="paragraph">
-<p>Uansett hvordan du klassifiserer datasettet, er det viktig å spesifisere hvilken hjemmel som ligger til grunn for innsamlingen og bruken av datasettet. Vurderingen går også her ut på om deler av et begrenset datasett likevel kan gjøres tilgjengelig som “grønne” data. Det som klassifiseres som rødt, skal likevel beskrives og beskrivelsene tilgjengeliggjøres i Felles datakatalog. <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> Behovet for å vite hva begrensningene for bruken av et datasett er, er viktig for den som skal vurderer å ta i bruk et datasett. Derfor bør du også henvise til den lovformuleringen med hjemmel og formål som regulerer bruken av datasettet, for eksempel i Lovdata. Se ellers <a href="https://data.norge.no/specification/spesifikasjon-for-beskrivelse-av-formal-og-hjemmel/">spesifikasjon for beskrivelse av formål og hjemmel.</a></p>
+<p>Uansett hvordan du klassifiserer datasettet, er det viktig å spesifisere hvilken hjemmel som ligger til grunn for innsamlingen og bruken av datasettet. Vurderingen går også her ut på om deler av et begrenset datasett likevel kan gjøres tilgjengelig som “grønne” data. Det som klassifiseres som rødt, skal likevel beskrives og beskrivelsene tilgjengeliggjøres i Felles datakatalog. <sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup> Behovet for å vite hva begrensningene for bruken av et datasett er, er viktig for den som skal vurderer å ta i bruk et datasett. Derfor bør du også henvise til den lovformuleringen med hjemmel og formål som regulerer bruken av datasettet, for eksempel i Lovdata. Se ellers <a href="https://data.norge.no/specification/spesifikasjon-for-beskrivelse-av-formal-og-hjemmel/">spesifikasjon for beskrivelse av formål og hjemmel.</a>
+=== Beskrive data</p>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_beskrive_data"><a class="anchor" href="#_beskrive_data"></a>Beskrive data</h3>
 <div class="sect3">
 <h4 id="_standard_for_beskrivelse_av_datasett_dcat_ap_no"><a class="anchor" href="#_standard_for_beskrivelse_av_datasett_dcat_ap_no"></a>Standard for beskrivelse av datasett - DCAT-AP-NO</h4>
 <div class="paragraph">
@@ -961,12 +894,10 @@ Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrive
 <p>Det er utviklet en spesifikasjon for å beskrivelse av informasjonsmodeller, <a href="https://informasjonsforvaltning.github.io/modelldcat-ap-no/">ModellDCAT-AP-NO</a>. Denne spesifikasjonen skal sikre at beskrivelser av informasjonsmodeller utføres på en felles, strukturert måte og i en maskinlesbar form. Sesifikasjonen foreslår en felles måte å uttrykke informasjonsmodeller på ved hjelp av en metamodell. Dette vil gjøre det enklere å oppdage og forstå informasjonsmodeller i offentlig sektor, utveksle informasjonsmodeller maskinelt, samt gjenbruke informasjonsmodeller eller elementer i dem.ModellDCAT-AP-NO er basert på DCAT-AP-NO v.2.0</p>
 </div>
 <div class="paragraph">
-<p>For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.</p>
+<p>For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.
+=== Tilgjengeliggjøre beskrivelsene</p>
 </div>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_tilgjengeliggjøre_beskrivelsene"><a class="anchor" href="#_tilgjengeliggjøre_beskrivelsene"></a>Tilgjengeliggjøre beskrivelsene</h3>
 <div class="sect3">
 <h4 id="_datakatalog_en_oversikt_over_datasett"><a class="anchor" href="#_datakatalog_en_oversikt_over_datasett"></a>Datakatalog - en oversikt over datasett</h4>
 <div class="paragraph">
@@ -985,34 +916,26 @@ Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrive
 <p>Datasettene kan registreres manuelt i <a href="https://data.norge.no/publishing">registreringsløsningen til Felles datakatalog</a>, eller ved å tilgjengeliggjøre en virksomhetsintern datakatalog (i samsvar med DCAT-AP-NO), som Felles datakatalog høster beskrivelser fra.</p>
 </div>
 <div class="paragraph">
-<p>Generelt anbefales det å tilgjengeliggjøre omtale av datasett før de er “perfekte”. Oversikter og datasettbeskrivelser kan utdypes og forbedres over tid. Man bør heller ikke vente til “hele huset er i orden” før man begynner å tilgjengeliggjøre informasjon om datasett.</p>
+<p>Generelt anbefales det å tilgjengeliggjøre omtale av datasett før de er “perfekte”. Oversikter og datasettbeskrivelser kan utdypes og forbedres over tid. Man bør heller ikke vente til “hele huset er i orden” før man begynner å tilgjengeliggjøre informasjon om datasett.
+=== Synliggjøring og brukerdialog</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_synliggjøring_og_brukerdialog"><a class="anchor" href="#_synliggjøring_og_brukerdialog"></a>Synliggjøring og brukerdialog</h3>
 <div class="paragraph">
 <p>Regjeringen legger i sine <a href="https://www.regjeringen.no/no/dokumenter/retningslinjer-ved-tilgjengeliggjoring-av-offentlige-data/id2536870/">Retningslinjer for tilgjengeliggjøring av offentlige data</a> opp til at offentlige virksomheter aktivt skal oppmuntre til bruk av egne data. Dette omfatter også aktiviteter som bidrar til økt kompetanse hos de som ønsker å ta i bruk virksomhetens data. Eksempler her er hackatons, workshops, seminarer og brukerforum.</p>
 </div>
 <div class="paragraph">
-<p>Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomheten ha bedre forutsetninger for å forstå behovene til brukerne. Dette vil bidra til å forbedre kvaliteten på publiserte data og til å bygge tillit mellom dataforvalter og bruker.</p>
+<p>Gjennom å tilby brukerne muligheten for å gi tilbakemeldinger, vil virksomheten ha bedre forutsetninger for å forstå behovene til brukerne. Dette vil bidra til å forbedre kvaliteten på publiserte data og til å bygge tillit mellom dataforvalter og bruker.
+== Styring og forvaltning</p>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_styring_og_forvaltning"><a class="anchor" href="#_styring_og_forvaltning"></a>Styring og forvaltning</h2>
-<div class="sectionbody">
 <div class="paragraph">
 <p>Organiseringen av orden i eget hus- arbeidet varierer med type virksomhet og ambisjonsnivå. Mange starter med begrepsarbeid, og vi beskriver under hvordan dette arbeidet foregår i Brønnøysundregistrene og NAV i kapittelet <a href="#_roller_i_begrepsarbeidet">Roller i begrepsarbeidet</a></p>
 </div>
 <div class="paragraph">
-<p>Helt overordnet, er det viktig å se flere ulike områder i sammenheng, slik at styringen forsterker også andre prosesser, og ikke jobber på tvers av dem. Se på eksisterende føringer og retningslinjer, prosesser og andre krav som virksomheten er pålagt å følge. Alt inngår i en styrings- og forvaltningsprosess for data og informasjon, men alle områdene er ikke nødvendigvis underlagt denne nye prosessen. Risikohåndtering, kvalitetskrav, forretningsprosesser / formål, teknologi som er tilgjengelig og nødvendig, kompetanse, ressurser og så videre er alle viktige vurderinger som må sees i en helhet for å lykkes med en god styring og håndtering av data i en virksomhet. Begynn gjerne der modenheten er størst og du har flere å alliere deg med.</p>
+<p>Helt overordnet, er det viktig å se flere ulike områder i sammenheng, slik at styringen forsterker også andre prosesser, og ikke jobber på tvers av dem. Se på eksisterende føringer og retningslinjer, prosesser og andre krav som virksomheten er pålagt å følge. Alt inngår i en styrings- og forvaltningsprosess for data og informasjon, men alle områdene er ikke nødvendigvis underlagt denne nye prosessen. Risikohåndtering, kvalitetskrav, forretningsprosesser / formål, teknologi som er tilgjengelig og nødvendig, kompetanse, ressurser og så videre er alle viktige vurderinger som må sees i en helhet for å lykkes med en god styring og håndtering av data i en virksomhet. Begynn gjerne der modenheten er størst og du har flere å alliere deg med.
+=== Overordnet organisering, roller og prosesser</p>
 </div>
-<div class="sect2">
-<h3 id="_overordnet_organisering_roller_og_prosesser"><a class="anchor" href="#_overordnet_organisering_roller_og_prosesser"></a>Overordnet organisering, roller og prosesser</h3>
 <div class="paragraph">
 <p>Masterdata og begrepsarbeid henger tett sammen. Styring og håndtering av masterdata (master data management (MDM)) i en virksomhet er kjernen i en vellykket gjennomføring. Det å få kontroll på hvilke registre eller datasett som utgjør kjernevirksomheten kan lett knyttes til interne prosesser som vil bli mer effektive, oversiktlige og kvalitetsmessig bedre. En leder for et område vil kunne ønske å delta i arbeidet med å definere hva det fagområdet betyr fordi konsekvensen av den definisjonen vil få praktiske betydninger, bl.a. for samvirkende systemer. Er kunde udefinert, vil det kunne være krevende å vite nøyaktig hva som kreves for å telle antall kunder. Gjelder en definisjonen for globale kunder som handler i flere land, kundebestillinger per land, eller noe annet?</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_styringsmodeller"><a class="anchor" href="#_styringsmodeller"></a>Styringsmodeller</h4>
@@ -1039,12 +962,9 @@ Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrive
 </ul>
 </div>
 <div class="paragraph">
-<p>Det finnes gjerne en todeling mellom de som er sentrale styrings- og forvaltningsansvarlige for informasjon og data i virksomheten, og de som er ansvarlig for de ulike funksjonelle fagområdene. Det viktigste i en slik styringsmodell er at ansvaret for datasett og metadata ligger hos fagsiden og eiere av tjenester og produkter. Informasjonsforvaltningsgruppen støtter fagsiden i deres arbeid.</p>
+<p>Det finnes gjerne en todeling mellom de som er sentrale styrings- og forvaltningsansvarlige for informasjon og data i virksomheten, og de som er ansvarlig for de ulike funksjonelle fagområdene. Det viktigste i en slik styringsmodell er at ansvaret for datasett og metadata ligger hos fagsiden og eiere av tjenester og produkter. Informasjonsforvaltningsgruppen støtter fagsiden i deres arbeid.
+=== Organisering, roller og arbeidsprosesser i begrepsarbeid</p>
 </div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid"><a class="anchor" href="#_organisering_roller_og_arbeidsprosesser_i_begrepsarbeid"></a>Organisering, roller og arbeidsprosesser i begrepsarbeid</h3>
 <div class="paragraph">
 <p>En vanlig utfordring er at begrepsarbeid ofte starter i forbindelse med større prosjekter der begrepsarbeid ikke nødvendigvis er hovedsaken, men nødvendig for et godt resultat. Utfordringen vil da ofte være å få dette begrepsarbeidet over i en driftsfase (med inkludering av nye begreper og oppdatering) når det opprinnelige prosjektet avsluttes. Det er viktig at noen får ansvar for å koordinere begrepsarbeidet på tvers i en virksomhet. Dersom en bruker begreper som kommer fra andre, eller hvis en vet at andre jobber innenfor samme fagområde, vil det være lurt å sjekke om andres begrepsbeskrivelser kan brukes.</p>
 </div>
@@ -1058,6 +978,7 @@ Arbeidet med å videreutvikle standard og løsning for en mer detaljert beskrive
 </div>
 <div class="paragraph">
 <p><em>Figur 2_</em>:Prosess i begrepsarbeid</p>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_roller_i_begrepsarbeidet"><a class="anchor" href="#_roller_i_begrepsarbeidet"></a>Roller i begrepsarbeidet</h4>
@@ -1183,29 +1104,23 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p>Prosjekter kan melde inn behov for å få avklart begreper. Når prosjektene gjør arbeid som innebærer definisjoner og avgrensninger knyttet til produkt eller løsning bør disse meldes inn i begrepskatalogen.</p>
 </li>
 <li>
-<p>Enkeltpersoner kan melde inn begreper de trenger definert i begrepskatalogen.</p>
+<p>Enkeltpersoner kan melde inn begreper de trenger definert i begrepskatalogen.
+== Valg av verktøy</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_valg_av_verktøy"><a class="anchor" href="#_valg_av_verktøy"></a>Valg av verktøy</h2>
-<div class="sectionbody">
 <div class="sect2">
 <h3 id="_begrepskatalog"><a class="anchor" href="#_begrepskatalog"></a>Begrepskatalog</h3>
 <div class="paragraph">
 <p>Begreper bør defineres og dokumenteres i én felles begrepskatalog og tilgjengeliggjøres til bruk for alle fagområder, både internt i virksomheten og eksternt. Hver virksomhet vil ha ulike behov knyttet til verktøystøtte, men det kan være nyttig å se etter verktøy som tilbyr prosesstøtte og tilgangsstyring for opprettelse, redigering, oppdatering og sletting av begrep.</p>
 </div>
 <div class="paragraph">
-<p>Virksomheten bør også tilgjengeliggjøre rammeverk og retningslinjer, informasjon om prosess og roller og opplæring på et egnet sted. Det bør også være god støtte for gjenfinning av data, herunder instanser av begreper, med forenklet og avansert søk og filtrering, oppslag og visning, evt også visualisering av begreper. Det bør også tas høyde for at begrepene skal kunne tilgjengeliggjøres maskinelt. Derfor er det lurt å stille krav til eksport/import og støtte for standardformater.</p>
+<p>Virksomheten bør også tilgjengeliggjøre rammeverk og retningslinjer, informasjon om prosess og roller og opplæring på et egnet sted. Det bør også være god støtte for gjenfinning av data, herunder instanser av begreper, med forenklet og avansert søk og filtrering, oppslag og visning, evt også visualisering av begreper. Det bør også tas høyde for at begrepene skal kunne tilgjengeliggjøres maskinelt. Derfor er det lurt å stille krav til eksport/import og støtte for standardformater.
+=== Virksomhetsintern datakatalog</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_virksomhetsintern_datakatalog"><a class="anchor" href="#_virksomhetsintern_datakatalog"></a>Virksomhetsintern datakatalog</h3>
 <div class="paragraph">
 <p>Ettersom DCAT-AP-NO er basert på en internasjonal standard finnes det flere løsninger som kan benyttes til etablering av en virksomhetsintern datakatalog. Samtidig vil de norske tilleggene medføre at de må tilpasses noe. Felles datakatalog, som utvikles og forvaltes av Digitaliseringsdirektoratet, er en lavterskel løsning som støtter alle de særnorske tilleggene. Kildekoden til Felles datakatalog ligger på <a href="https://github.com/Altinn/fdk/blob/master/README.md">GitHub</a>.</p>
 </div>
@@ -1225,14 +1140,10 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p><a href="https://entryscape.com/en/products/catalog/">Entryscape Catalog</a>: Svensk programvare (og teneste) som i motsetning til flere av de andre løsningene er basert på DCAT-AP.  Har i tillegg støtte for DCAT-AP-NO.</p>
 </div>
 <div class="paragraph">
-<p>Flere av disse løsningene er komplette plattformer i den betydningen at de også har funksjonalitet for å distribuere datasett. Listen er ikke uttømmende og løsningene er ikke testet av Digitaliseringsdirektoratet.</p>
+<p>Flere av disse løsningene er komplette plattformer i den betydningen at de også har funksjonalitet for å distribuere datasett. Listen er ikke uttømmende og løsningene er ikke testet av Digitaliseringsdirektoratet.
+== Hvorfor orden i eget hus</p>
 </div>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_hvorfor_orden_i_eget_hus"><a class="anchor" href="#_hvorfor_orden_i_eget_hus"></a>Hvorfor orden i eget hus</h2>
-<div class="sectionbody">
 <div class="sect2">
 <h3 id="_delekultur_som_gir_gevinster"><a class="anchor" href="#_delekultur_som_gir_gevinster"></a>Delekultur som gir gevinster</h3>
 <div class="paragraph">
@@ -1251,11 +1162,9 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p>Digitale tjenester i én offentlig virksomhet forutsetter ofte informasjon som forvaltes av andre virksomheter. Lånekassen trenger f.eks. informasjon fra bl.a. Skatteetaten, NAV og UDI i sin saksbehandling. “Orden i eget hus” er viktig for å lage gode og sammenhengende tjenester; for å vite hvilken informasjon som finnes hos andre, men også for å vite hva den betyr. ( “Samboer” er f.eks. ikke nødvendigvis det samme i Skatteetaten og NAV. ) “Orden i eget hus” forenkler arbeidet med å identifisere hva som kan utveksles, og gir basis for eventuell koordinering av begrepsbruk. Den som bruker tjenestene, slipper på sin side å slite med ulik begrepsbruk, og henting og videreformidling av informasjon som det offentlige allerede har.</p>
 </div>
 <div class="paragraph">
-<p>Arbeidet med å skape “orden i eget hus” er et stort nasjonalt fellesløft, der eget arbeid vil gi gevinst for andre, og vise versa.</p>
+<p>Arbeidet med å skape “orden i eget hus” er et stort nasjonalt fellesløft, der eget arbeid vil gi gevinst for andre, og vise versa.
+=== Legitimitet og tillit</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_legitimitet_og_tillit"><a class="anchor" href="#_legitimitet_og_tillit"></a>Legitimitet og tillit</h3>
 <div class="paragraph">
 <p>Riktig datagrunnlag er avgjørende for å trygge likebehandlingen og rettssikkerheten til innbyggerne. Med bedre kvalitet på dataene legger en grunnlaget for å treffe rett avgjørelse. God orden i form av autorative kilder til informasjon vil profesjonalisere forvaltningen av disse kildene, og økt bruk vil føre til bedre kvalitet på dataene.</p>
 </div>
@@ -1263,11 +1172,9 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p>Innbyggerne må få innsyn i beslutningsgrunnlaget i saker som gjelder dem selv. Riktige data i beslutningsprosessene er avgjørende for tilliten til forvaltningen og de beslutningene som fattes (<a href="https://lovdata.no/dokument/NL/lov/1967-02-10">Forvaltningsloven</a>). Økt effektivisering i form av økt automatisering i saksbehandlingen og på sikt bruk av kunstig intelligens bygger på en forutsetning om orden i eget hus.</p>
 </div>
 <div class="paragraph">
-<p>Innsyn i offentlig forvaltning er viktig for demokratiet, for likebehandling og i kampen mot korrupsjon og maktmisbruk. Orden i eget hus legger grunnlaget for transparens fordi vi kan gi tilgang til grunnlaget for beslutninger og prioriteringer. Vi kan gi innsyn i hvordan beslutninger følges opp, samt hva effekten av politiske tiltak er.</p>
+<p>Innsyn i offentlig forvaltning er viktig for demokratiet, for likebehandling og i kampen mot korrupsjon og maktmisbruk. Orden i eget hus legger grunnlaget for transparens fordi vi kan gi tilgang til grunnlaget for beslutninger og prioriteringer. Vi kan gi innsyn i hvordan beslutninger følges opp, samt hva effekten av politiske tiltak er.
+=== Bedre endringsevne, gjennomføring og kontroll</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_bedre_endringsevne_gjennomføring_og_kontroll"><a class="anchor" href="#_bedre_endringsevne_gjennomføring_og_kontroll"></a>Bedre endringsevne, gjennomføring og kontroll</h3>
 <div class="paragraph">
 <p>Gevinsten ved å ha den “orden i eget hus” som delingskulturen forutsetter, vil være at virksomheten internt har oversikt over egen informasjon, forstår hva den betyr og bruker den til å understøtte virksomhetens arbeidsprosesser og oppgaveløsning. I dag er det ikke uvanlig at deler av en virksomhet ikke kjenner til informasjon som forvaltes av en annen del, noe som bidrar til redusert effektivitet i arbeidsprosessene.</p>
 </div>
@@ -1281,17 +1188,13 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p>Orden i eget hus krever økt samspill mellom fag og IT. Når fagsiden tar mer eierskap til data, begrepsbruk og beslutninger gir det økt trygghet og støtte for fagansvarlig. Det fører og til mer effektiv oppgaveløsning og færre henvendelser.</p>
 </div>
 <div class="paragraph">
-<p>Gode styringsdata er avgjørende for å utvikle virksomheten. Det er enklere å optimalisere virksomheten når en har kontroll på relevante masterdata, i tillegg til at det er enklere å rapportere på måloppnåelse.</p>
+<p>Gode styringsdata er avgjørende for å utvikle virksomheten. Det er enklere å optimalisere virksomheten når en har kontroll på relevante masterdata, i tillegg til at det er enklere å rapportere på måloppnåelse.
+=== Bedre digitale tjenester til innbyggere og næringsliv</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_bedre_digitale_tjenester_til_innbyggere_og_næringsliv"><a class="anchor" href="#_bedre_digitale_tjenester_til_innbyggere_og_næringsliv"></a>Bedre digitale tjenester til innbyggere og næringsliv</h3>
 <div class="paragraph">
-<p>Brukerorienterte digitale tjenester er avhengige av rett utnyttelse av informasjonen som allerede finnes om innbygger og næringsliv. Dette muliggjør pro-aktive tjenester, persontilpassede tjenester og automatiserte tjenester. Det vil si at offentlig sektor ikke skal spørre om noe den allerede vet (kun en gang-prinsippet), en skal ikke søke om noe en har rett til, en skal få umiddelbart svar hvis det ikke kreves skjønn, og det skal være enkelt å vite hva offentlig sektor vet om deg og hvem som har sett denne informasjonen. I tillegg skal tjenester leveres på tvers av sektorer og forvaltningsnivå i såkalte tjenestekjeder.</p>
+<p>Brukerorienterte digitale tjenester er avhengige av rett utnyttelse av informasjonen som allerede finnes om innbygger og næringsliv. Dette muliggjør pro-aktive tjenester, persontilpassede tjenester og automatiserte tjenester. Det vil si at offentlig sektor ikke skal spørre om noe den allerede vet (kun en gang-prinsippet), en skal ikke søke om noe en har rett til, en skal få umiddelbart svar hvis det ikke kreves skjønn, og det skal være enkelt å vite hva offentlig sektor vet om deg og hvem som har sett denne informasjonen. I tillegg skal tjenester leveres på tvers av sektorer og forvaltningsnivå i såkalte tjenestekjeder.
+=== Innovasjon og ny næringsvekst</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_innovasjon_og_ny_næringsvekst"><a class="anchor" href="#_innovasjon_og_ny_næringsvekst"></a>Innovasjon og ny næringsvekst</h3>
 <div class="paragraph">
 <p>Innovasjon er en samlebetegnelse for vellykket fornyelse. Når økonomier endrer seg raskt er innovasjon nødvendig for å opprettholde og utvikle vår konkurranseevne og vår velstand.</p>
 </div>
@@ -1305,11 +1208,9 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 <p>Orden i eget hus gjør det enklere å vite hvilke data en kan åpne opp for alle. Åpne data er viktig for samfunnet. Næringslivet får mulighet til å utvikle nye tjenester, produkter og forretningsmodeller basert på tilgang til offentlig informasjon.</p>
 </div>
 <div class="paragraph">
-<p>Felles datakatalog tilrettelegger for verdiøkning og tjenesteinnovasjon. Enkle tilgangsformer (programmeringsgrensesnitt – API), åpne standarder og gode metadata gjør det enklere å utvikle innovative løsninger basert på oppdaterte data.</p>
+<p>Felles datakatalog tilrettelegger for verdiøkning og tjenesteinnovasjon. Enkle tilgangsformer (programmeringsgrensesnitt – API), åpne standarder og gode metadata gjør det enklere å utvikle innovative løsninger basert på oppdaterte data.
+=== Informasjonssikkerhet og personvern</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_informasjonssikkerhet_og_personvern"><a class="anchor" href="#_informasjonssikkerhet_og_personvern"></a>Informasjonssikkerhet og personvern</h3>
 <div class="paragraph">
 <p>Flere områder tilknyttet informasjonsbehandling har behov for oversikt over virksomhetens arbeidsoppgaver (prosesser) og hvilke informasjonstyper som behandles i disse. I tillegg til å ha oversikt for å vurdere datadeling og effektivisering, må virksomhetene blant annet ha</p>
 </div>
@@ -1354,11 +1255,9 @@ Den enkelte avdeling i virksomheten bør selv vurdere om de har interesse i begr
 </div>
 </div>
 <div class="paragraph">
-<p><em>Figur 3_</em>: Få oversikt og prioritere</p>
+<p><em>Figur 3_</em>: Få oversikt og prioritere
+=== Lovverk</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="_lovverk"><a class="anchor" href="#_lovverk"></a>Lovverk</h3>
 <div class="paragraph">
 <p>Krav om orden i eget hus følger av regelverk om internkontroll, informasjonssikkerhet, personvern og arkiv, hvor oversikt over egen informasjon er grunnleggende.<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup></p>
 </div>
@@ -1437,7 +1336,7 @@ ga('send', 'pageview');
 <div id="footer">
 <div id="footer-text">
 Versjon 2.0<br>
-Sist oppdatert 2020-12-23 04:50:32 UTC
+Sist oppdatert 2021-01-13 13:08:59 UTC
 </div>
 </div>
 </body>
