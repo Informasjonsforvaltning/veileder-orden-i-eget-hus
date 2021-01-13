@@ -7,7 +7,7 @@ I 2015 besluttet Difi at https://data.norge.no/specification/dcat-ap-no/[“Stan
 
 ==== Standarder for begrepsarbeid
 
-Når det gjelder beskrivelse av begreper knyttet til data, kan det organiseres på ulike måter. https://www.digdir.no/sites/sogn/files/2020-12/Rammeverk%20for%20begrepsarbeidet%20i%20Br%C3%B8nn%C3%B8ysundregistrene%20v.%202.0.pdf[Brønnøysundregisrene har utviklet et eget rammeverk for begrepsarbeid]. Flere virksomheter arbeider med begrepskataloger (bl.a. Brønnøysundregistrene, https://www.difi.no/sites/difino/files/retningslinjer_bk_v1.2.pdf[NAV] og Skatteetaten) der de definerer både begreper som inngår i datasett og andre begreper som er relevante i virksomhetens arbeid. Andre har valgt å konsentrere begrepsarbeidet hovedsakelig om variabler knyttet til identifiserte datasett.
+Når det gjelder beskrivelse av begreper knyttet til data, kan det organiseres på ulike måter. https://www.digdir.no/sites/sogn/files/2020-12/Rammeverk%20for%20begrepsarbeidet%20i%20Br%C3%B8nn%C3%B8ysundregistrene%20v.%202.0.pdf[Brønnøysundregisrene har utviklet et eget rammeverk for begrepsarbeid]. Flere virksomheter arbeider med begrepskataloger (bl.a. Brønnøysundregistrene, NAV og Skatteetaten) der de definerer både begreper som inngår i datasett og andre begreper som er relevante i virksomhetens arbeid. Andre har valgt å konsentrere begrepsarbeidet hovedsakelig om variabler knyttet til identifiserte datasett.
 
 Det finnes i dag flere anbefalinger vedrørende begrepsarbeid i https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standardar/1480[Referansekatalogen for IT-standarder i offentlig sektor]. Det finnes en https://www.digdir.no/digitale-felleslosninger/forvaltningsstandard-omgrepsbeskrivingar/1682[Forvaltningsstandard for begrepsbeskrivelse ]som viser hvilke elementer som skal med når et begrep beskrives. https://www.digdir.no/digitale-felleslosninger/forvaltningsstandarder-maskinell-tilgjengeliggjoring-av-begrepsbeskrivelser/1684[Tilknyttet denne er det to forvaltningsstandarder for maskinell tilgjengeliggjøring av begrepsbeskrivelser].
 
@@ -21,7 +21,7 @@ Kvaliteten på virksomhetens data påvirker hvor egnet de er til andre formål e
 
 En veiledende regel kan være at det som er bra nok for eget arbeid, også er bra nok for å dele med omverdenen. En erfaring flere har gjort seg, er at tilgjengeliggjøring fører til bedre kvalitet. Når informasjon gjøres tilgjengelig, er det flere som kan oppdage og gi tilbakemelding om potensielle feil, og eier kan rette opp disse.
 
-Det er i tillegg utarbeidet en egen https://data.norge.no/specification/dqv-ap-no/[spesifikasjon for beskrivelse av kvalitet på datasett - DQV-AP-NO].Denne spesifikasjonen brukes sammen med og supplerer https://data.norge.no/specification/dcat-ap-no/[DCAT-AP-NO v.2.0+].
+Det er i tillegg utarbeidet en egen https://data.norge.no/specification/dqv-ap-no/[spesifikasjon for beskrivelse av kvalitet på datasett - DQV-AP-NO]. Denne spesifikasjonen brukes sammen med og supplerer https://data.norge.no/specification/dcat-ap-no/[DCAT-AP-NO v.2.0+].
 
 ==== API-katalog - en oversikt over grensesnitt til data
 
@@ -43,6 +43,6 @@ Ulik forståelse og ulik representasjon av sentral felles informasjon hindrer ef
 
 Det er derfor et behov for felles forståelse og lik representasjon av grunnleggende informasjon. Forståelse etableres med et felles begrepsapparat, og ved å etablere standardiserte beskrivelser for data og sammenhengene mellom data-elementene ved hjelp av informasjonsmodeller.
 
-Det er utviklet en spesifikasjon for å beskrivelse av informasjonsmodeller, https://informasjonsforvaltning.github.io/modelldcat-ap-no/[ModellDCAT-AP-NO]. Denne spesifikasjonen skal sikre at beskrivelser av informasjonsmodeller utføres på en felles, strukturert måte og i en maskinlesbar form. Sesifikasjonen foreslår en felles måte å uttrykke informasjonsmodeller på ved hjelp av en metamodell. Dette vil gjøre det enklere å oppdage og forstå informasjonsmodeller i offentlig sektor, utveksle informasjonsmodeller maskinelt, samt gjenbruke informasjonsmodeller eller elementer i dem.ModellDCAT-AP-NO er basert på DCAT-AP-NO v.2.0
+Det er utviklet en spesifikasjon for beskrivelse av informasjonsmodeller, https://informasjonsforvaltning.github.io/modelldcat-ap-no/[ModellDCAT-AP-NO]. Denne spesifikasjonen skal sikre at beskrivelser av informasjonsmodeller utføres på en felles, strukturert måte og i en maskinlesbar form. Sesifikasjonen foreslår en felles måte å uttrykke informasjonsmodeller på ved hjelp av en metamodell. Dette vil gjøre det enklere å oppdage og forstå informasjonsmodeller i offentlig sektor, utveksle informasjonsmodeller maskinelt, samt gjenbruke informasjonsmodeller eller elementer i dem. ModellDCAT-AP-NO er basert på DCAT-AP-NO v.2.0
 
 For å etablere informasjonsmodeller som skal være felles for offentlige virksomheter, trenger vi felles grunnleggende designprinsipper samt føringer i form av regler, retningslinjer og metode for informasjonsmodellering. Dette blir et sentralt arbeid fremover.
