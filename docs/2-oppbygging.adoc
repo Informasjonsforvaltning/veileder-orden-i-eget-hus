@@ -1,4 +1,5 @@
 
+
 === Oppbygging av veilederen
 
 I Difis (nå Digitaliseringsdirektoratet) rapport https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf["Informasjonsforvaltning i offentlig sektor"] defineres informasjonsforvaltning slik:
