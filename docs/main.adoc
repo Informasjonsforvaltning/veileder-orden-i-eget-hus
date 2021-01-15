@@ -14,8 +14,8 @@ v2.0.1, 13.01.2021
 
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
-Publisert: 2018-06-07
-Oppdatert: 2021-01-13 (kun redaksjonelle endringer)
+*Publisert: 2018-06-07 +
+*Oppdatert: 2021-01-13 (kun redaksjonelle endringer)
 
 include::shared/download.adoc[]
 NOTE: *Innmelding av feil og mangler:* +
