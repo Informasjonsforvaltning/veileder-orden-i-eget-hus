@@ -14,8 +14,8 @@ v2.0.1, 13.01.2021
 
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
-*Publisert: 2018-06-07 +
-*Oppdatert: 2021-01-13 (kun redaksjonelle endringer)
+*Publisert*: 2018-06-07 (v.2.0) +
+*Oppdatert*: 2021-01-13 (v.2.0.1, kun redaksjonelle endringer)
 
 include::shared/download.adoc[]
 NOTE: *Innmelding av feil og mangler:* +
@@ -23,27 +23,49 @@ Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn 
 
 // Innhold her. Feks ei fil pr kapittel:
 include::1 - målgruppe.adoc[]
+
 include::2-oppbygging.adoc[]
+
 include::3-menerMed.adoc[]
+
 include::4-mandat.adoc[]
+
 include::5-modenhetsmåling.adoc[]
+
 include::6-kartlegging.adoc[]
+
 include::7-prioritering.adoc[]
+
 include::8-tilgangsnivå.adoc[]
+
 include::9-beskrive.adoc[]
+
 include::10-tilgjengeliggjøre.adoc[]
+
 include::11-synliggjøre.adoc[]
+
 include::12-styring.adoc[]
+
 include::13-overordnetRollerProsesser.adoc[]
+
 include::14-rollerProsesserBegrepsarbeid.adoc[]
+
 include::15-verktøyBegrep.adoc[]
+
 include::16-verktøyLokalkat.adoc[]
+
 include::17-delekultur.adoc[]
+
 include::18-legitimitet.adoc[]
+
 include::19-endringsevne.adoc[]
+
 include::20-bedreDigitaleTjenester.adoc[]
+
 include::21-innovasjon.adoc[]
+
 include::22-infosikkerhet.adoc[]
+
 include::23-lovverk.adoc[]
 
 include::shared/stats.adoc[]
