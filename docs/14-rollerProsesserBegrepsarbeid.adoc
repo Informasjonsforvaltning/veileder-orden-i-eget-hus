@@ -3,13 +3,13 @@
 
 En vanlig utfordring er at begrepsarbeid ofte starter i forbindelse med større prosjekter der begrepsarbeid ikke nødvendigvis er hovedsaken, men nødvendig for et godt resultat. Utfordringen vil da ofte være å få dette begrepsarbeidet over i en driftsfase (med inkludering av nye begreper og oppdatering) når det opprinnelige prosjektet avsluttes. Det er viktig at noen får ansvar for å koordinere begrepsarbeidet på tvers i en virksomhet. Dersom en bruker begreper som kommer fra andre, eller hvis en vet at andre jobber innenfor samme fagområde, vil det være lurt å sjekke om andres begrepsbeskrivelser kan brukes.
 
-Begrepenes livssyklus bør defineres gjennom en prosess, se eksempel under. Prosessen bør også ta høyde for endringer og revisjoner (nye versjoner etter godkjenning)footnote:[I dette eksempelet er ikke revisjonsprosess tatt med.].
+Begrepenes livssyklus bør defineres gjennom en prosess, se eksempel under. Prosessen bør også ta høyde for endringer og revisjoner (nye versjoner etter godkjenning).
 
 image::Hovedprosess Brreg ny.png[]
-Eksempel på prosess i begrepsarbeid
+Eksempel på prosess i begrepsarbeid (https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus/blob/master/docs/images/Hovedprosess%20Brreg%20ny.png[lenke til større versjon])
 
-image::delprosess Godkjenne begrep_brreg ny.png
-Eksempel på delprosess for godkjenning av begrep
+image::delprosess Godkjenne begrep_brreg ny.png[]
+Eksempel på delprosess for godkjenning av begrep (https://github.com/Informasjonsforvaltning/veileder-orden-i-eget-hus/blob/master/docs/images/delprosess%20Godkjenne%20begrep_brreg%20ny.png[lenke til større versjon])
 
 ==== Roller i begrepsarbeidet
 
