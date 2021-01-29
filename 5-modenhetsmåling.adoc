@@ -1,6 +1,10 @@
 
 == Hvordan skape orden i eget hus?
 
+image::OiEH_sirkel.png[]
+
+Nødvendige steg for å skape Orden i eget hus
+
 === Modenhetsmåling
 
 Vi har utviklet en https://www.digdir.no/digitale-felleslosninger/modenhetsmodell-orden-i-eget-hus/2124[modenhetsmodell] for at virksomhetene skal kunne vurdere hvor langt de er kommet i arbeidet med orden i eget hus. Også for denne modellen er datadeling målet, og orden i eget hus middelet. Modellen inkluderer flere av punktene fra https://www.digdir.no/sites/sogn/files/2020-12/rapport-informasjonsforvaltning-i-offentleg-sektor-2013-10-10.pdf[Difi-rapporten], både punkt 1 “Datasettene i virksomheten er beskrevet i en oversikt”, 2 “Oversikten fra punkt 1 er publisert” og 4 “Dataelementene er beskrevet” inngår i aksene i modellen.
