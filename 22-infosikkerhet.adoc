@@ -1,0 +1,24 @@
+
+=== Informasjonssikkerhet og personvern
+
+Flere områder tilknyttet informasjonsbehandling har behov for oversikt over virksomhetens arbeidsoppgaver (prosesser) og hvilke informasjonstyper som behandles i disse. I tillegg til å ha oversikt for å vurdere datadeling og effektivisering, må virksomhetene blant annet ha
+
+* oversikt over behandling av personopplysninger for å ivareta personvern
+* oversikt over all informasjonsbehandling, inkludert potensielle konsekvenser ved brudd på informasjonssikkerhet footnote:[Ofte kalt «verdivurdering»], for å ivareta informasjonssikkerhet på en god måte
+
+Det mest effektive er at slik oversikt fremskaffes og vedlikeholdes på en helhetlig måte, som dekker de forskjellige behovene.
+
+Uten orden i eget hus og en oversikt over informasjonen man forvalter, kan man ikke gjøre en reell vurdering av risiko. Derfor kan vi si at orden i eget hus styrker både personvernet og arbeidet med informasjonssikkerhet. Ved å ha oversikt over egen informasjon og arbeidsoppgavene den brukes i, er det enklere å vite hva man skal sikre og hvordan.
+
+Mange arbeider med å få oversikt over sine personopplysninger i forbindelse med innføringen av personvernforordningen (General Data Protection Regulation). Vi mener at ved å kombinere dette arbeidet med god informasjonsforvaltning generelt, vil man kunne skape et godt grunnlag for det videre arbeidet på ulike områder – og utnytte ressursene sine bedre.
+
+Digitaliseringsdirektoratet har utviklet veilederen http://internkontroll-infosikkerhet.difi.no/[“Internkontroll i praksis - informasjonssikkerhet”]. For å ha tilstrekkelig styring og kontroll på informasjonssikkerhetsområdet, må virksomheten ha oversikt over hvilke arbeidsoppgaver som utføres, og hvilke informasjonstyper som behandles i de ulike oppgavene. Vi mener det er mulig å kombinere foranalysen av ansvarsområder med flagging av data for videre arbeid med datadeling. Digitaliseringsdirektoratets veiledningsmateriell har hjelpemidler som kan brukes i arbeidet:
+
+*   	https://internkontroll-infosikkerhet.difi.no/systematiske-aktiviteter/risikovurdering#Fa_oversikt_prioritere[Beskrivelse av aktiviteten «Få oversikt og prioritere»], som omfatter blant annet foranalysen +
+*     https://internkontroll-infosikkerhet.difi.no/sites/sikkerhet/files/mal_foranalyse_del_1-risikoeiere-arbeidsoppgaver_informasjon_mv-fa_oversikt_og_prioritere_0.docx[Mal til skjema for gjennomføring av foranalysen på et ansvarsområde]
+
+*  	https://internkontroll-infosikkerhet.difi.no/sites/sikkerhet/files/stotte_veiledning_til_foranalyse_del_1-risikoeiere-arbeidsoppgaver_informasjon.pdf[Veiledning til utfylling av malen/støtteskjemaet]
+
+image::Risikovurdering.jpg[]
+
+_Figur 3__: Få oversikt og prioritere
