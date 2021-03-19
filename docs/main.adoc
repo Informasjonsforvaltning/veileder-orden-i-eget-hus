@@ -15,7 +15,9 @@ v2.0.1, 13.01.2021
 image::digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
 *Publisert*: 2018-06-07 (v.2.0) +
-*Oppdatert*: 2021-01-13 (v.2.0.1, kun redaksjonelle endringer)
+*Oppdatert*: 2021-01-13 (v.2.0.1, kun redaksjonelle endringer) +
+*Gjeldende versjon*: https://data.norge.no/guide/veileder-orden-i-eget-hus/ +
+*Redaktørens utkast*: https://informasjonsforvaltning.github.io/veileder-orden-i-eget-hus/ 
 
 include::shared/download.adoc[]
 NOTE: *Innmelding av feil og mangler:* +
