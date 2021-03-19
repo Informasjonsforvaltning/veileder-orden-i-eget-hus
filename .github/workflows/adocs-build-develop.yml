@@ -1,4 +1,4 @@
-name: build adocs
+name: build adocs develop
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - develop
     paths:
     - docs/**
-    
+
 jobs:
   adoc_build:
     runs-on: ubuntu-18.04
