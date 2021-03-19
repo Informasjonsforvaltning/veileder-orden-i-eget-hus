@@ -1,9 +1,9 @@
-name: build adocs
+name: build adocs develop
 
 on:
   push:
     branches:
-    - review
+    - develop
 jobs:
   adoc_build:
     runs-on: ubuntu-18.04
